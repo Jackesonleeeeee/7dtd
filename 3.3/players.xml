@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persistentplayerdata version="1">
+  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-08-02 20:39:25" position="720,61,682">
+    <lpblock pos="729,67,661" />
+    <bedroll pos="735,68,651" />
+    <questpositions>
+      <position id="736247506" positiondatatype="0" pos="459,62,655" />
+      <position id="736247506" positiondatatype="2" pos="190,72,-144" />
+      <position id="-317178074" positiondatatype="0" pos="459,62,655" />
+      <position id="-317178074" positiondatatype="2" pos="939,57,699" />
+    </questpositions>
+  </player>
+</persistentplayerdata>
