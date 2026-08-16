@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata version="1">
-  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-08-14 22:21:25" position="1254,61,678">
+  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-08-16 00:03:58" position="734,68,656">
     <lpblock pos="729,67,661" />
     <lpblock pos="956,68,714" />
     <lpblock pos="1248,65,657" />
@@ -9,14 +9,14 @@
       <position id="1292750897" positiondatatype="4" pos="-198,72,1762" />
       <position id="138623557" positiondatatype="0" pos="459,62,655" />
       <position id="138623557" positiondatatype="2" pos="1486,66,628" />
-      <position id="325570716" positiondatatype="0" pos="-931,76,1762" />
-      <position id="325570716" positiondatatype="2" pos="-1586,65,-1215" />
       <position id="1430848460" positiondatatype="0" pos="-931,76,1762" />
       <position id="1430848460" positiondatatype="2" pos="-433,69,1889" />
-      <position id="1505767484" positiondatatype="0" pos="204,77,-136" />
-      <position id="1505767484" positiondatatype="2" pos="-1633,48,-719" />
       <position id="-1575880981" positiondatatype="0" pos="459,62,655" />
       <position id="-1575880981" positiondatatype="2" pos="1732,56,-1945" />
+      <position id="1068803448" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="1068803448" positiondatatype="2" pos="-1409,50,-1480" />
+      <position id="829006894" positiondatatype="0" pos="204,77,-136" />
+      <position id="829006894" positiondatatype="2" pos="1371,45,-477" />
     </questpositions>
   </player>
   <player platform="EOS" userid="0002822e45af4d38aa0b799e9c26c647" nativeplatform="Steam" nativeuserid="76561198820260438" playername="willytseng2003" playgroup="Standalone" lastlogin="2026-08-11 20:59:57" position="734,68,652">
