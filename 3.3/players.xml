@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata version="1">
-  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-08-22 20:41:57" position="735,68,655">
+  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-08-23 13:26:55" position="1755,68,-1889">
     <lpblock pos="729,67,661" />
     <lpblock pos="956,68,714" />
     <lpblock pos="975,68,545" />
@@ -15,6 +15,7 @@
       <position id="906302045" positiondatatype="4" pos="-362,57,443" />
       <position id="1873411616" positiondatatype="0" pos="-1568,71,-1184" />
       <position id="1873411616" positiondatatype="2" pos="-1813,60,-1833" />
+      <position id="-1575880981" positiondatatype="7" pos="1749,60,-1939" />
     </questpositions>
   </player>
   <player platform="EOS" userid="0002822e45af4d38aa0b799e9c26c647" nativeplatform="Steam" nativeuserid="76561198820260438" playername="willytseng2003" playgroup="Standalone" lastlogin="2026-08-11 20:59:57" position="734,68,652">
