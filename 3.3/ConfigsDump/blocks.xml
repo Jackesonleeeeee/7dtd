@@ -10763,7 +10763,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="UnlockedBy" value="craftingTraps" />
     <property name="DisplayType" value="blockElectricalHardened" />
     <property name="Stacknumber" value="10" />
-    <property name="Material" value="Mmetal_medium" />
+    <property name="Material" value="MmetalNoGlue" />
     <property name="Shape" value="ModelEntity" />
     <property name="Model" value="@:Entities/Traps/AutoTurret/autoTurretSMGPrefab.prefab" />
     <property name="ModelOffset" value="0,0,0" />
@@ -10773,10 +10773,12 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="OnlySimpleRotations" value="true" />
     <!-- the targeting math will NOT work if it's not upright -->
     <property name="Path" value="solid" />
+    <property name="StabilitySupport" value="false" />
     <property name="EconomicValue" value="3000" />
     <property name="EconomicBundleSize" value="1" />
     <property name="TraderStageTemplate" value="electricTier3" />
     <!-- autoTurret -->
+    <property name="MaxDamage" value="1000" />
     <property class="RepairItems">
       <property name="resourceForgedIron" value="12" />
       <property name="resourceMechanicalParts" value="2" />
@@ -18678,6 +18680,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
         <property name="OpenSound" value="gate_wood_large_open" />
         <property name="CloseSound" value="gate_wood_large_close" />
         <property name="LockedSound" value="gate_wood_large_locked" />
+        <property name="HonkOpenType" value="Trader" />
       </property>
       <property class="TEFeatureLockable" />
     </property>
@@ -18935,6 +18938,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
         <property name="OpenSound" value="gate_chainlink_trader_open" />
         <property name="CloseSound" value="gate_chainlink_trader_close" />
         <property name="LockedSound" value="gate_chainlink_locked" />
+        <property name="HonkOpenType" value="Trader" />
       </property>
       <property class="TEFeatureLockable" />
     </property>
@@ -19043,6 +19047,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
         <property name="OpenSound" value="door_chainlink_single_open" />
         <property name="CloseSound" value="door_chainlink_single_close" />
         <property name="LockedSound" value="gate_chainlink_locked" />
+        <property name="HonkOpenType" value="Trader" />
       </property>
       <property class="TEFeatureLockable" />
     </property>
@@ -19094,6 +19099,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
         <property name="OpenSound" value="door_chainlink_double_open" />
         <property name="CloseSound" value="door_chainlink_double_close" />
         <property name="LockedSound" value="gate_chainlink_locked" />
+        <property name="HonkOpenType" value="Trader" />
       </property>
       <property class="TEFeatureLockable" />
     </property>
@@ -25585,7 +25591,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!-- Placement -->
     <property name="Place" value="TowardsPlacer90" />
     <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
-    <property name="IsTerrainDecoration" value="true" />
+    <property name="IsTerrainDecoration" value="false" />
     <property name="StabilitySupport" value="false" />
     <!-- Value -->
     <property name="EconomicValue" value="5" />
@@ -26731,6 +26737,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property class="TEFeatureDoor">
         <property name="OpenSound" value="door_wood_roughcut_open" />
         <property name="CloseSound" value="door_wood_roughcut_close" />
+        <property name="HonkOpenType" value="Trader" />
       </property>
       <property class="TEFeatureLockable" />
     </property>
@@ -26844,6 +26851,72 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!-- Sorting -->
     <property name="SortOrder1" value="B301" />
     <property name="SortOrder2" value="0001" />
+    <property name="Group" value="Building,advBuilding" />
+    <property name="Tags" value="door" />
+    <property name="BlockTag" value="Door" />
+    <property name="FilterTags" value="MC_building,SC_doors" />
+    <property name="SoundPickup" value="wood_misc_hvy_grab" />
+    <property name="SoundPlace" value="wood_misc_hvy_place" />
+  </block>
+  <block name="oldWoodDoorNoHonk">
+    <!-- Class -->
+    <property name="CreativeMode" value="Dev" />
+    <property name="CustomIcon" value="oldWoodDoor" />
+    <property name="Class" value="CompositeTileEntity" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureDoor" />
+      <property class="TEFeatureDoor">
+        <property name="OpenSound" value="door_wood_roughcut_open" />
+        <property name="CloseSound" value="door_wood_roughcut_close" />
+      </property>
+      <property class="TEFeatureLockable" />
+    </property>
+    <property name="IndexName" value="TraderOnOff" />
+    <!-- UI_Info -->
+    <property name="DescriptionKey" value="oldWoodDoorDesc" />
+    <property name="DisplayType" value="blockMulti" />
+    <property name="Stacknumber" value="500" />
+    <!-- Visual -->
+    <property name="Material" value="Mwood_regular" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="@:Entities/Doors/oldWoodDoor/oldWoodDoorPrefab.prefab" />
+    <property name="ModelOffset" value="0,0,0" />
+    <property name="MultiBlockDim" value="1,2,1" />
+    <property name="ImposterExchange" value="imposterBlock" param1="25" />
+    <property name="LightOpacity" value="1" />
+    <property name="WaterFlow" value="permitted" />
+    <!-- Placement -->
+    <property name="Place" value="Door" />
+    <property name="AllowAllRotations" value="true" />
+    <property name="StabilitySupport" value="false" />
+    <!-- Value -->
+    <property name="EconomicValue" value="1" />
+    <property name="SellableToTrader" value="false" />
+    <!-- Interaction -->
+    <property name="ExplosionAffected" value="false" />
+    <property name="MaxDamage" value="1000" />
+    <property name="StartDamage" value="0" />
+    <property name="PassThroughDamage" value="true" />
+    <property name="Stage2Health" value="1" />
+    <property name="MeshDamage" value="Door/DMG0,1000,Door/DMG1,750,Door/DMG2,500,Door/DMG3,250,-,1" />
+    <property class="RepairItems">
+      <property name="resourceWood" value="10" />
+    </property>
+    <property class="RepairItemsMeshDamage">
+      <property name="resourceWood" value="1" />
+    </property>
+    <property class="UpgradeBlock">
+      <property name="ToBlock" value="ironDoorBlockVariantHelper" />
+      <property name="Item" value="ironDoorBlockVariantHelper" />
+      <property name="ItemCount" value="1" />
+      <property name="UpgradeHitCount" value="5" />
+    </property>
+    <drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest,perkJunkMiner" />
+    <drop event="Destroy" count="0" />
+    <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
+    <!-- Sorting -->
+    <property name="SortOrder1" value="B301" />
+    <property name="SortOrder2" value="0000" />
     <property name="Group" value="Building,advBuilding" />
     <property name="Tags" value="door" />
     <property name="BlockTag" value="Door" />

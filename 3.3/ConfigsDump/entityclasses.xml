@@ -4638,7 +4638,7 @@
   <entity_class name="animalTemplateTimid">
     <property name="Class" value="EntityAnimalStag" />
     <property name="UserSpawnType" value="None" />
-    <property name="EntityFlags" value="animal,edible" />
+    <property name="EntityFlags" value="animal,edible,timid" />
     <property name="Tags" value="entity,animal" />
     <property name="ModelType" value="Standard" />
     <property name="Prefab" value="NPC" />
@@ -4665,7 +4665,7 @@
     <property name="AISeeOffset" value=".2" />
     <property name="AIPathCostScale" value="100, 100" />
     <property name="AITask-1" value="RunawayWhenHurt" />
-    <property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal" />
+    <property name="AITask-2" value="RunawayFromEntity" data="flags=animal,bandit,player,zombie;safeFlags=timid" />
     <property name="AITask-3" value="Look" />
     <property name="AITask-4" value="Wander" />
     <!-- Stealth settings -->
@@ -4801,7 +4801,7 @@
     <property name="HasRagdoll" value="true" />
     <property name="CanBigHead" value="false" />
     <property name="AITask-1" value="RunawayWhenHurt" />
-    <property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20" />
+    <property name="AITask-2" value="RunawayFromEntity" data="flags=animal,bandit,player,zombie;safeFlags=timid;safeDistance=22" />
     <property name="AITask-3" value="Look" />
     <property name="AITask-4" value="Wander" />
     <!-- Gameplay -->

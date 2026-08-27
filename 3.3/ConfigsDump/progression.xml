@@ -3354,11 +3354,13 @@
       </effect_group>
       <effect_group>
         <!-- Each blow landed with a stun baton has a 10% higher chance for instant death -->
-        <requirement name="HoldingItemHasTags" tags="stunBaton" />
-        <requirement name="IsAlive" target="other" />
-        <requirement name="EntityTagCompare" target="other" tags="zombie,animal,bandit" />
-        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10" />
-        <passive_effect name="EntityDamage" operation="base_add" level="5" value="1500" tags="stunBaton" />
+        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" buff="buffPhysicianEuthanizer">
+          <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10" />
+          <requirement name="ProgressionLevel" progression_name="perkPhysician" operation="EQ" value="5" />
+          <requirement name="HoldingItemHasTags" tags="stunBaton" />
+          <requirement name="IsAlive" target="other" />
+          <requirement name="EntityTagCompare" target="other" tags="zombie,animal,bandit" />
+        </triggered_effect>
       </effect_group>
     </perk>
     <!-- *** ADVANCED_ENGINEERING -->
@@ -3671,13 +3673,13 @@
         <passive_effect name="LockPickBreakChance" operation="perc_subtract" level="1,3" value=".1,.3" />
         <!-- Increase the chance to find lockpicks with each perk rank -->
         <passive_effect name="LootQuantity" operation="base_add" level="2,3" value="1,2" tags="lockPickSkill" />
-        <!-- Increase the chance to find workstation crafting skill magazines with each perk rank up to crafting skill 12 -->
+        <!-- Increase the chance to find workstation crafting skill magazines with each perk rank up to crafting skill 10 -->
         <passive_effect name="LootProb" operation="perc_add" level="1,3" value="2,10" tags="workstationCSM">
-          <requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="LT" value="12" />
+          <requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="LT" value="10" />
         </passive_effect>
         <!-- Once workstation crafting skill reaches 12, set the probability bonus of finding workstation crafting skill magazines to 0 -->
         <passive_effect name="LootProb" operation="base_set" level="1,3" value="1,1" tags="workstationCSM">
-          <requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="GTE" value="12" />
+          <requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="GTE" value="10" />
         </passive_effect>
         <!-- Increase the chance to find The Great Heist books until each book is read -->
         <passive_effect name="LootProb" operation="perc_add" level="1,3" value="2,10" tags="greatHeistProb">

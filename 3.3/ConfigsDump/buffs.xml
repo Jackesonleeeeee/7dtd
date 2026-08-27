@@ -1492,6 +1492,13 @@
     <effect_group>
       <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message_key="buffShowChickenStressTooltip" />
     </effect_group>
+    <effect_group>
+      <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffChickenStress">
+        <requirement name="!HoldingItemHasTags" tags="wildChicken" />
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="%stressAmount" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="stressTimer" />
+    </effect_group>
   </buff>
   <buff name="buffChickenStressChicken">
     <stack_type value="ignore" />
@@ -1506,57 +1513,57 @@
   </buff>
   <!-- *** buffChickenFullStress_AngryChicken -->
   <!-- Buff that triggers when a chicken has full stress -->
-  <buff name="buffChickenFullStress_AngryChicken" name_key="Angry Chicken Event" description_key="Angry Chicken Event" icon="ui_game_symbol_chicken_stress" icon_color="255,0,0">
+  <buff name="buffChickenFullStress_AngryChicken" name_key="buffChickenFullStress_AngryChickenName" description_key="buffChickenFullStress_AngryChickenNameDesc" icon="ui_game_symbol_stress_angry_chicken" icon_color="255,0,0">
     <stack_type value="ignore" />
     <duration value="3" />
     <effect_group>
       <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffChickenFullStress_AngryChicken" />
       <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_chickenstress_angry" />
-      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Angry Chicken Event!" show_immediately="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="buffChickenFullStress_AngryChickenTooltip" show_immediately="true" />
     </effect_group>
   </buff>
   <!-- *** buffChickenFullStress_DropChicken -->
   <!-- Buff that triggers when a chicken has full stress -->
-  <buff name="buffChickenFullStress_DropChicken" name_key="Drop Chicken Event" description_key="Drop Chicken Event" icon="ui_game_symbol_chicken_stress" icon_color="255,0,0">
+  <buff name="buffChickenFullStress_DropChicken" name_key="buffChickenFullStress_DropChickenName" description_key="buffChickenFullStress_DropChickenNameDesc" icon="ui_game_symbol_stress_drop_chicken" icon_color="255,0,0">
     <stack_type value="ignore" />
     <duration value="3" />
     <effect_group>
       <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffChickenFullStress_DropChicken" />
       <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_chickenstress_drop" />
-      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Drop Chicken Event!" show_immediately="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="buffChickenFullStress_DropChickenTooltip" show_immediately="true" />
     </effect_group>
   </buff>
   <!-- *** buffChickenFullStress_Enrage -->
   <!-- Buff that triggers when a chicken has full stress -->
-  <buff name="buffChickenFullStress_Enrage" name_key="Enrage Event" description_key="Enrage Event" icon="ui_game_symbol_chicken_stress" icon_color="255,0,0">
+  <buff name="buffChickenFullStress_Enrage" name_key="buffChickenFullStress_EnrageName" description_key="buffChickenFullStress_EnrageNameDesc" icon="ui_game_symbol_stress_enrage_zombies" icon_color="255,0,0">
     <stack_type value="ignore" />
     <duration value="3" />
     <effect_group>
       <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffChickenFullStress_Enrage" />
       <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_chickenstress_enrage" />
-      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Enrage Event!" show_immediately="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="buffChickenFullStress_EnrageTooltip" show_immediately="true" />
     </effect_group>
   </buff>
   <!-- *** buffChickenFullStress_MurderChickens -->
   <!-- Buff that triggers when a chicken has full stress -->
-  <buff name="buffChickenFullStress_MurderChickens" name_key="Murder Chickens Event" description_key="Murder Chickens Event" icon="ui_game_symbol_chicken_stress" icon_color="255,0,0">
+  <buff name="buffChickenFullStress_MurderChickens" name_key="buffChickenFullStress_MurderChickensName" description_key="buffChickenFullStress_MurderChickensNameDesc" icon="ui_game_symbol_stress_murder_chickens" icon_color="255,0,0">
     <stack_type value="ignore" />
     <duration value="3" />
     <effect_group>
       <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffChickenFullStress_MurderChickens" />
       <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_chickenstress_murderchickens" />
-      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Murder Chickens Event!" show_immediately="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="buffChickenFullStress_MurderChickensTooltip" show_immediately="true" />
     </effect_group>
   </buff>
   <!-- *** buffChickenFullStress_ZombieHorde -->
   <!-- Buff that triggers when a chicken has full stress -->
-  <buff name="buffChickenFullStress_ZombieHorde" name_key="Zombie Horde Event" description_key="Zombie Horde Event" icon="ui_game_symbol_chicken_stress" icon_color="255,0,0">
+  <buff name="buffChickenFullStress_ZombieHorde" name_key="buffChickenFullStress_ZombieHordeName" description_key="buffChickenFullStress_ZombieHordeNameDesc" icon="ui_game_symbol_stress_zombie_horde" icon_color="255,0,0">
     <stack_type value="ignore" />
     <duration value="3" />
     <effect_group>
       <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffChickenFullStress_ZombieHorde" />
       <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_chickenstress_zombiehorde" />
-      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Zombie Horde Event!" show_immediately="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="buffChickenFullStress_ZombieHordeTooltip" show_immediately="true" />
     </effect_group>
   </buff>
   <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -3057,6 +3064,18 @@
       <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="perkSpectersGrace" operation="set" value="1" />
       <triggered_effect trigger="onSelfBuffFinish" action="RemoveCVar" cvar="perkSpectersGrace" />
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="perkSpectersGrace" />
+    </effect_group>
+  </buff>
+  <!-- *** buffPhysicianEuthanizer -->
+  <!-- Buff that triggers when the Euthanizer perk is fired -->
+  <buff name="buffPhysicianEuthanizer" name_key="buffPhysicianEuthanizerName" description_key="buffPhysicianEuthanizerDesc" icon="ui_game_symbol_euthanizer" icon_color="0,255,0">
+    <stack_type value="ignore" />
+    <duration value="3" />
+    <display_value_key value="Kill" />
+    <display_value value="xxx" />
+    <effect_group>
+      <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="ui_skill_purchase" play_in_head="true" />
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" target="other" operation="set" value="-25000" />
     </effect_group>
   </buff>
   <!-- *** buffBurstCounter -->
@@ -14551,9 +14570,13 @@ invert				boolean, inverts the condition
 	IsDay
 	IsNight
 	IsBloodMoon
-	TimeOfDay			<requirement name="TimeOfDay" operation="GTE" value="1230"/>
+	IsDayNumber						checks the number of days
+	TimeOfDay						<requirement name="TimeOfDay" operation="GTE" value="1230"/>
 	InBiome biome="<biome id>"		<requirement name="InBiome" biome="9"/>
 	IsIndoors
+	
+	IsWorldName						<requirement name="IsWorldName" world_name="My World"/>
+	IsPlaytest						<requirement name="IsPlaytest"/>
 
 	PerksUnlocked skill_name="<skill name>"
 	PlayerItemCount item_name="<item name>" - An expensive function that should be used sparingly.

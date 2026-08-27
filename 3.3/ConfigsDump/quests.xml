@@ -51,7 +51,7 @@
 		<passive_effect name="QuestBonusItemReward" operation="perc_add" level="4,5" value="0.25,0.25"/>
 		<passive_effect name="QuestRewardChoiceCount" operation="base_add" level="5" value="1"/>
 -->
-<quests max_quest_tier="6" quests_per_tier="10" starter_quest="quest_whiteRiverCitizen1">
+<quests max_quest_tier="6" starter_quest="quest_whiteRiverCitizen1">
   <!-- *** BASIC_QUESTS -->
   <!-- White River Citizen 1 - Journey to Settlement -->
   <quest id="quest_whiteRiverCitizen1">

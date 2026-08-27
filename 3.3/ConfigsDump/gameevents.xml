@@ -270,6 +270,11 @@
       <property name="operation" value="set" />
       <property name="value" value="30" />
     </action>
+    <action class="ModifyCVar">
+      <property name="cvar" value="challenge_group_reward_basics" param1="cvar" />
+      <property name="operation" value="set" />
+      <property name="value" value="0" />
+    </action>
     <action class="RemoveDeathBuffs" />
     <action class="ModifyEntityStat">
       <property name="stat" value="Food" />
@@ -1239,11 +1244,24 @@
     <action class="SpawnEntity">
       <property name="entity_names" value="animalChickenHostile" />
       <property name="spawn_count" value="3-5" />
+      <property name="safe_spawn" value="true" />
       <property name="air_spawn" value="false" />
     </action>
     <action class="PlaySound">
       <property name="sound" value="Animals/Chicken/chickenpain" />
       <property name="phase" value="1" />
+    </action>
+  </action_sequence>
+  <!-- *** HONK_TRADER_DOORS -->
+  <!-- Used for opening trader doors with horns  -->
+  <action_sequence name="honk_trader_doors">
+    <property name="action_type" value="Game" />
+    <action class="BlockDoorState">
+      <property name="min_offset" value="-5,0,-5" />
+      <property name="max_offset" value="5,3,5" />
+      <property name="set_open" value="Toggle" />
+      <property name="trader_only" value="true" />
+      <property name="block_tags" value="trader_door" />
     </action>
   </action_sequence>
   <!-- <action_sequence name="test_POITrigger"> -->
@@ -10062,7 +10080,7 @@
     <action class="BlockDoorState">
       <property name="min_offset" value="-5,0,-5" />
       <property name="max_offset" value="5,3,5" />
-      <property name="set_open" value="true" />
+      <property name="set_open" value="Open" />
       <property name="safe_allowed" value="true" />
     </action>
   </action_sequence>
@@ -10071,7 +10089,7 @@
     <action class="BlockDoorState">
       <property name="min_offset" value="-5,0,-5" />
       <property name="max_offset" value="5,3,5" />
-      <property name="set_open" value="false" />
+      <property name="set_open" value="Closed" />
       <property name="safe_allowed" value="true" />
     </action>
   </action_sequence>
@@ -11365,8 +11383,10 @@
 			animation_trigger - The animation trigger to enable.
 
 		BlockDoorState - Sets all the doors within the defined range to the set open state.
-			set_open - If the doors should be set open or closed. (true/false)
+			set_open - If the doors should be set open, closed, or Toggle. (Open/Closed/Toggle)
 			set_lock - If the doors should be locked (true/false)
+			trader_only - If the doors only open at the trader (true/false)
+			animate - If the doors should animate when opening/closing. (Defaults to true)
 
 		BlockDowngrade - Sets all the blocks within the defined range to their defined Downgrade block.
 

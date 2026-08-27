@@ -993,6 +993,7 @@
       <item name="resourceGlue" count="5,15" />
       <item name="resourceDuctTape" count="10,30" />
       <item name="resourceCloth" count="5,100" />
+      <item name="resourceCropCottonPlant" count="5,25" />
       <item name="resourceLeather" count="5,25" />
       <item name="resourceScrapPolymers" count="30,150" />
       <item name="resourceGunPowder" count="3,30" />

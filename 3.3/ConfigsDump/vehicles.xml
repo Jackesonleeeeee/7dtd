@@ -48,6 +48,7 @@ Forces:
     <property name="waterLift_y_depth_force" value="1, .5, .1" />
     <property name="hornSound" value="gyrocopter_horn" />
     <property name="recipeName" value="vehicleGyrocopterPlaceable" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -206,6 +207,7 @@ Forces:
     <property name="unstickForce" value="1" />
     <property name="waterY_VelMaxScale" value="2, .2" />
     <property name="hornSound" value="minibike_horn" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="engine">
       <property name="class" value="Engine" />
       <property name="mesh" value="engine_small" />
@@ -266,6 +268,7 @@ Forces:
     <property name="wheelPtlScale" value=".6" />
     <property name="hornSound" value="bicycle_horn" />
     <property name="recipeName" value="vehicleBicyclePlaceable" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -347,6 +350,7 @@ Forces:
     <property name="wheelPtlScale" value=".6" />
     <property name="hornSound" value="minibike_horn" />
     <property name="recipeName" value="vehicleMinibikePlaceable" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -443,6 +447,7 @@ Forces:
     <property name="wheelPtlScale" value="1" />
     <property name="hornSound" value="motorbike_horn" />
     <property name="recipeName" value="vehicleMotorcyclePlaceable" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -549,6 +554,7 @@ Forces:
     <property name="wheelPtlScale" value="1" />
     <property name="hornSound" value="suv_horn" />
     <property name="recipeName" value="vehicleTruck4x4Placeable" />
+    <property name="honkEvent" value="honk_trader_doors" />
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />

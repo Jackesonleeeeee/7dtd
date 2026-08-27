@@ -14,6 +14,7 @@
     <tip key="loadingTipEncumbrance" />
     <tip key="loadingTipArmor" />
     <tip key="loadingTipBandages" />
+    <tip key="loadingTipHonkHorn" />
     <!-- <tip key="loadingTipJournalEntries" /> -->
     <tip key="loadingTipQuestSharing" />
     <tip key="loadingTipWhatIsItGoodFor" />

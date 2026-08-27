@@ -11768,7 +11768,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     </effect_group>
   </item>
   <item name="ammoRocketHE">
-    <property name="Tags" value="T3,ammo,perkDemolitionsExpert,scrap100" />
+    <property name="Tags" value="T3,ammo,perkDemolitionsExpert,scrap100,explosivesSkill" />
     <property name="DisplayType" value="ammoLauncher" />
     <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketPrefab.prefab" />
     <property name="HoldType" value="45" />
@@ -24384,7 +24384,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="DegradationMax" operation="base_set" value="10,60" tier="1,6" />
     </effect_group>
     <effect_group>
-      <requirement name="!HoldingItemHasTags" tags="toolCookingGrill" />
+      <requirement name="ItemHasTags" tags="toolCookingGrill" />
+      <requirement name="!IsHeldItem" />
+      <!-- This requirement only works here in items.xml -->
       <!-- Perk Master Chef Level 0 increases CraftingTime by 400%. This will adjust the cooking pot accordingly. -->
       <passive_effect name="CraftingTime" operation="perc_add" value="-1.5,-2,-2.5,-3,-3.5,-4" tier="1,2,3,4,5,6" tags="grill">
         <requirement name="ProgressionLevel" progression_name="perkMasterChef" operation="EQ" value="0" />
@@ -24430,7 +24432,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="DegradationMax" operation="base_set" value="10,60" tier="1,6" />
     </effect_group>
     <effect_group>
-      <requirement name="!HoldingItemHasTags" tags="toolCookingPot" />
+      <requirement name="ItemHasTags" tags="toolCookingPot" />
+      <requirement name="!IsHeldItem" />
+      <!-- This requirement only works here in items.xml -->
       <!-- Perk Master Chef Level 0 increases CraftingTime by 400%. This will adjust the cooking pot accordingly. -->
       <passive_effect name="CraftingTime" operation="perc_add" value="-1.5,-2,-2.5,-3,-3.5,-4" tier="1,2,3,4,5,6" tags="cookingPotFood">
         <requirement name="ProgressionLevel" progression_name="perkMasterChef" operation="EQ" value="0" />
@@ -24525,7 +24529,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="DegradationMax" operation="base_set" value="10,60" tier="1,6" />
     </effect_group>
     <effect_group>
-      <requirement name="!HoldingItemHasTags" tags="toolAnvil" />
+      <requirement name="ItemHasTags" tags="toolAnvil" />
+      <requirement name="!IsHeldItem" />
+      <!-- This requirement only works here in items.xml -->
       <passive_effect name="CraftingTime" operation="perc_add" value="-.2,-.3,-.4,-.5,-.6,-.7" tier="1,2,3,4,5,6" />
       <display_value name="dCraftingTime" value=".2,.3,.4,.5,.6,.7" tier="1,2,3,4,5,6" />
     </effect_group>
@@ -28604,6 +28610,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   <!-- *** TIERED_WEAPON_BUNDLES -->
   <item name="questRewardT0HandgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="handgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRevolver" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28616,6 +28623,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT0RifleBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="rifleSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28628,6 +28636,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT0ShotgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="shotgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleShotgun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28640,6 +28649,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT0MachineGunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleMachineGun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28652,6 +28662,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT1HandgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="handgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundlePistol" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28664,6 +28675,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT1ShotgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="shotgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleShotgun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28676,6 +28688,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT1RifleBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="rifleSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28688,6 +28701,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT1MachineGunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleMachineGun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28700,6 +28714,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT2HandgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="handgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRevolver" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28712,6 +28727,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT2ShotgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="shotgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleShotgun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28724,6 +28740,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT2RifleBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="rifleSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28736,6 +28753,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT2MachineGunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleMachineGun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28748,6 +28766,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3HandgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="handgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundlePistol" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28760,6 +28779,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3SMGBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundlePistol" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28772,6 +28792,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3ShotgunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="shotgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleShotgun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28784,6 +28805,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3RifleBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="rifleSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28796,6 +28818,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3MachineGunBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleMachineGun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28808,6 +28831,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3HandgunLegendaryBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="handgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundlePistol" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28820,6 +28844,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3SMGLegendaryBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundlePistol" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28832,6 +28857,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3ShotgunLegendaryBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="shotgunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleShotgun" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28844,6 +28870,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3RifleLegendaryBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="rifleSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6666" />
@@ -28856,6 +28883,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   </item>
   <item name="questRewardT3MachineGunLegendaryBundle">
     <property name="Extends" value="questRewardBundleMaster" />
+    <property name="Tags" value="machinegunSkill" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="bundleMachineGun" />
     <property name="CustomIconTint" value="FF6666" />

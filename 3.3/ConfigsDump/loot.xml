@@ -1660,32 +1660,32 @@
   <lootgroup name="groupWeaponsT2_Demolitionist">
     <item name="thrownDynamite" count="1,3" />
     <item name="thrownGrenade" count="1,3" />
-    <item group="groupAmmoRocket" prob="0.3" count="1,2" />
+    <item group="groupAmmoRocket" prob="0.3" count="1,2" tags="explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsT3_Demolitionist01" count="all" loot_quality_template="QLTemplateT3">
     <item name="gunExplosivesT3RocketLauncher" />
     <item group="groupAmmoRocket" />
   </lootgroup>
   <lootgroup name="groupWeaponsT3_Demolitionist">
-    <item group="groupWeaponsT3_Demolitionist01" prob="0.4" />
-    <item group="groupAmmoRocket" prob="0.6" count="1,2" />
+    <item group="groupWeaponsT3_Demolitionist01" prob="0.4" tags="explosivesSkill" />
+    <item group="groupAmmoRocket" prob="0.6" count="1,2" tags="explosivesSkill" />
     <item name="thrownGrenadeContact" count="1,3" />
     <item name="thrownTimedCharge" count="1,3" />
   </lootgroup>
   <lootgroup name="groupWeapons_Demolitionist">
-    <item group="groupWeaponsT1_Demolitionist" loot_prob_template="ProbT0" />
-    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT1" />
-    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT2" />
+    <item group="groupWeaponsT1_Demolitionist" loot_prob_template="ProbT0" tags="explosivesSkill" />
+    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT1" tags="explosivesSkill" />
+    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT2" tags="explosivesSkill" />
     <item name="gunExplosivesT3RocketLauncherParts" count="2,5" loot_prob_template="ProbT2" />
-    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" />
+    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" tags="explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeapons_DemolitionistTPlus">
-    <item group="groupWeaponsT1_Demolitionist" loot_prob_template="ProbT0" />
-    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT1" />
-    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT2" />
+    <item group="groupWeaponsT1_Demolitionist" loot_prob_template="ProbT0" tags="explosivesSkill" />
+    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT1" tags="explosivesSkill" />
+    <item group="groupWeaponsT2_Demolitionist" loot_prob_template="ProbT2" tags="explosivesSkill" />
     <item name="gunExplosivesT3RocketLauncherParts" count="2,5" loot_prob_template="ProbT2" />
-    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" />
-    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" />
+    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" tags="explosivesSkill" />
+    <item group="groupWeaponsT3_Demolitionist" loot_prob_template="ProbT3" tags="explosivesSkill" />
   </lootgroup>
   <!-- *** Strength_Based_Lootgroups -->
   <lootgroup name="groupWeaponsT0_Boomstick" count="all" loot_quality_template="QLTemplateT0">
@@ -1771,11 +1771,11 @@
   </lootgroup>
   <!-- *** T0_Weapons_All -->
   <lootgroup name="groupWeaponsT0_All">
-    <item group="groupWeaponsT0_Archery" />
-    <item group="groupWeaponsT0_Gunslinger" />
-    <item group="groupWeaponsT0_Boomstick" />
-    <item group="groupWeaponsT0_DeadEye" />
-    <item group="groupWeaponsT0_Machinegunner" />
+    <item group="groupWeaponsT0_Archery" tags="bowSkill" />
+    <item group="groupWeaponsT0_Gunslinger" tags="handgunSkill" />
+    <item group="groupWeaponsT0_Boomstick" tags="shotgunSkill" />
+    <item group="groupWeaponsT0_DeadEye" tags="rifleSkill" />
+    <item group="groupWeaponsT0_Machinegunner" tags="machinegunSkill" />
     <item name="meleeWpnSpearT0StoneSpear" />
     <item name="meleeWpnClubT0WoodenClub" />
     <item name="meleeWpnSledgeT0StoneSledgehammer" />
@@ -1849,42 +1849,42 @@
   </lootgroup>
   <!-- *** T0_Ranged_Weapons -->
   <lootgroup name="groupWeaponsT0_Ranged" abundance_type="Ranged">
-    <item group="groupWeaponsT0_Gunslinger" />
-    <item group="groupWeaponsT0_Boomstick" />
-    <item group="groupWeaponsT0_DeadEye" />
-    <item group="groupWeaponsT0_Machinegunner" />
-    <item group="groupWeaponsT0_Archery" />
-    <item group="groupWeaponsT1_Demolitionist" />
+    <item group="groupWeaponsT0_Gunslinger" tags="handgunSkill" />
+    <item group="groupWeaponsT0_Boomstick" tags="shotgunSkill" />
+    <item group="groupWeaponsT0_DeadEye" tags="rifleSkill" />
+    <item group="groupWeaponsT0_Machinegunner" tags="machinegunSkill" />
+    <item group="groupWeaponsT0_Archery" tags="bowSkill" />
+    <item group="groupWeaponsT1_Demolitionist" tags="explosivesSkill" />
   </lootgroup>
   <!-- *** T1_Ranged_Weapons -->
   <lootgroup name="groupWeaponsT1_Ranged" abundance_type="Ranged">
-    <item group="groupWeaponsT1_DeadEye" />
-    <item group="groupWeaponsT1_Demolitionist" />
-    <item group="groupWeaponsT1_Boomstick" />
-    <item group="groupWeaponsT1_Machinegunner" />
-    <item group="groupWeaponsT1_Archery" />
-    <item group="groupWeaponsT1_Gunslinger" />
-    <item group="groupWeaponsT1_TurretsSyndrome" />
+    <item group="groupWeaponsT1_DeadEye" tags="rifleSkill" />
+    <item group="groupWeaponsT1_Demolitionist" tags="explosivesSkill" />
+    <item group="groupWeaponsT1_Boomstick" tags="shotgunSkill" />
+    <item group="groupWeaponsT1_Machinegunner" tags="machinegunSkill" />
+    <item group="groupWeaponsT1_Archery" tags="bowSkill" />
+    <item group="groupWeaponsT1_Gunslinger" tags="handgunSkill" />
+    <item group="groupWeaponsT1_TurretsSyndrome" tags="roboticsSkill" />
   </lootgroup>
   <!-- *** T2_Ranged_Weapons -->
   <lootgroup name="groupWeaponsT2_Ranged" abundance_type="Ranged">
-    <item group="groupWeaponsT2_DeadEye" />
-    <item group="groupWeaponsT2_Demolitionist" />
-    <item group="groupWeaponsT2_Boomstick" />
-    <item group="groupWeaponsT2_Machinegunner" />
-    <item group="groupWeaponsT3_Archery" />
-    <item group="groupWeaponsT2_Gunslinger" />
-    <item group="groupWeaponsT2_TurretsSyndrome" />
+    <item group="groupWeaponsT2_DeadEye" tags="rifleSkill" />
+    <item group="groupWeaponsT2_Demolitionist" tags="explosivesSkill" />
+    <item group="groupWeaponsT2_Boomstick" tags="shotgunSkill" />
+    <item group="groupWeaponsT2_Machinegunner" tags="machinegunSkill" />
+    <item group="groupWeaponsT3_Archery" tags="bowSkill" />
+    <item group="groupWeaponsT2_Gunslinger" tags="handgunSkill" />
+    <item group="groupWeaponsT2_TurretsSyndrome" tags="roboticsSkill" />
   </lootgroup>
   <!-- *** T3_Ranged_Weapons -->
   <lootgroup name="groupWeaponsT3_Ranged" abundance_type="Ranged">
-    <item group="groupWeaponsT3_DeadEye" />
-    <item group="groupWeaponsT3_Demolitionist" />
-    <item group="groupWeaponsT3_Boomstick" />
-    <item group="groupWeaponsT3_Machinegunner" />
-    <item group="groupWeaponsT3_Archery" />
-    <item group="groupWeaponsT3_Gunslinger" />
-    <item group="groupWeaponsT3_TurretsSyndrome" />
+    <item group="groupWeaponsT3_DeadEye" tags="rifleSkill" />
+    <item group="groupWeaponsT3_Demolitionist" tags="explosivesSkill" />
+    <item group="groupWeaponsT3_Boomstick" tags="shotgunSkill" />
+    <item group="groupWeaponsT3_Machinegunner" tags="machinegunSkill" />
+    <item group="groupWeaponsT3_Archery" tags="bowSkill" />
+    <item group="groupWeaponsT3_Gunslinger" tags="handgunSkill" />
+    <item group="groupWeaponsT3_TurretsSyndrome" tags="roboticsSkill" />
   </lootgroup>
   <!-- *** Ranged_Weapon_Parts -->
   <lootgroup name="groupWeapons_RangedParts">
@@ -1926,20 +1926,20 @@
     <item group="groupWeaponsT3_Ranged" loot_prob_template="ProbT3" />
   </lootgroup>
   <lootgroup name="groupWeaponsAllScaled">
-    <item group="groupWeaponsMeleeScaled" />
-    <item group="groupWeaponsRangedScaled" />
+    <item group="groupWeaponsMeleeScaled" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupWeaponsRangedScaled" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsAllScaledTPlus">
-    <item group="groupWeaponsMeleeScaledTPlus" />
-    <item group="groupWeaponsRangedScaledTPlus" />
+    <item group="groupWeaponsMeleeScaledTPlus" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupWeaponsRangedScaledTPlus" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsAllScaledNoStone">
-    <item group="groupWeaponsMeleeScaledNoStone" />
-    <item group="groupWeaponsRangedScaled" />
+    <item group="groupWeaponsMeleeScaledNoStone" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupWeaponsRangedScaled" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsAllScaledNoParts">
-    <item group="groupWeaponsMeleeScaledNoParts" />
-    <item group="groupWeaponsRangedScaledNoParts" />
+    <item group="groupWeaponsMeleeScaledNoParts" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupWeaponsRangedScaledNoParts" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill" />
   </lootgroup>
   <!-- *** Dye_Mods -->
   <lootgroup name="dyes">
@@ -2130,7 +2130,7 @@
     <item name="foodGrilledMeat" count="1,2" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupGrills">
-    <item group="groupGrills01" count="1,2" />
+    <item group="groupGrills01" count="1,2" tags="foodSkill" />
     <item name="meleeWpnBladeT1HuntingKnife" loot_prob_template="veryLow" />
     <item name="toolCookingGrill" loot_prob_template="veryLow" random_durability="false" />
   </lootgroup>
@@ -2707,7 +2707,7 @@
   </lootgroup>
   <!-- *** Books_Schematics_Scaled -->
   <lootgroup name="booksAllScaled">
-    <item group="perkBooks" loot_prob_template="high" />
+    <item group="perkBooks" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="schematicsModsAndGeneralCommon" loot_prob_template="medHigh" />
     <item group="schematicsVehiclesCommon" loot_prob_template="low" />
   </lootgroup>
@@ -2722,6 +2722,7 @@
   <!-- *** Electrical_Devices -->
   <lootgroup name="groupRareElectrical" loot_quality_template="QLTemplateT3">
     <item name="solarCell" />
+    <item name="solarbank" />
   </lootgroup>
   <lootgroup name="groupElectricalDevices">
     <item name="resourceElectricParts" count="5,10" loot_prob_template="high" />
@@ -2736,7 +2737,7 @@
     <item name="generatorbank" loot_prob_template="veryLow" />
     <item name="electricianSkillMagazine" loot_prob_template="high" />
     <item name="trapsSkillMagazine" count="1" loot_prob_template="med" />
-    <item group="groupRareElectrical" loot_prob_template="med" />
+    <item group="groupRareElectrical" loot_prob_template="med" tags="electricianSkill" />
   </lootgroup>
   <!-- *** Canned_Food -->
   <lootgroup name="cannedfood">
@@ -2950,7 +2951,7 @@
   <lootgroup name="groupAutomotive">
     <item group="groupCraftingUncommon" />
     <item name="ammoGasCan" count="10,100" loot_prob_template="medHigh" />
-    <item group="groupCarWeaponsTools" loot_prob_template="medLow" />
+    <item group="groupCarWeaponsTools" loot_prob_template="medLow" tags="salvagingSkill" />
     <item group="groupRareAutomotive" loot_prob_template="low" />
     <item group="groupScrapRare" loot_prob_template="veryLow" />
   </lootgroup>
@@ -3001,25 +3002,25 @@
     <item name="workstationSkillMagazine" />
   </lootgroup>
   <lootgroup name="groupWorkingStiffs01">
-    <item group="groupWorkingStiffsMagazines" loot_prob_template="high" />
+    <item group="groupWorkingStiffsMagazines" loot_prob_template="high" tags="harvestingToolsCSM,repairToolsCSM,salvageToolsCSM,sledgehammersCSM,workstationCSM" />
     <item name="frameShapes:VariantHelper" count="10,20" loot_prob_template="med" />
-    <item group="toolParts" loot_prob_template="med" />
-    <item group="groupToolsTieredBonus" loot_prob_template="medLow" />
+    <item group="toolParts" loot_prob_template="med" tags="sledgeSkill,harvestingSkill,repairingSkill,salvagingSkill" />
+    <item group="groupToolsTieredBonus" loot_prob_template="medLow" tags="sledgeSkill,harvestingSkill,repairingSkill,salvagingSkill" />
   </lootgroup>
   <lootgroup name="groupWorkingStiffs02">
     <item group="groupCraftingUncommon" loot_prob_template="med" />
     <item group="groupBuildingUncommon" loot_prob_template="med" />
-    <item group="groupToolsTieredBonus" loot_prob_template="low" />
+    <item group="groupToolsTieredBonus" loot_prob_template="low" tags="sledgeSkill,harvestingSkill,repairingSkill,salvagingSkill" />
   </lootgroup>
   <lootgroup name="groupWorkingStiffs03">
     <item group="groupCraftingRare" loot_prob_template="med" />
     <item group="groupBuildingRare" loot_prob_template="med" />
-    <item group="groupWorkingStiffsBooks" loot_prob_template="medLow" />
+    <item group="groupWorkingStiffsBooks" loot_prob_template="medLow" tags="artOfMiningProb,sledgeSagaProb,wastelandProb,firemansProb" />
     <item group="workstationToolsScaled" loot_prob_template="medLow" />
   </lootgroup>
   <lootgroup name="groupWorkingStiffs04">
     <item group="groupUtilityItems" loot_prob_template="medLow" />
-    <item group="groupElectricalDevices" loot_prob_template="medLow" />
+    <item group="groupElectricalDevices" loot_prob_template="medLow" tags="electricianSkill" />
   </lootgroup>
   <lootgroup name="groupWorkingStiffsCrate" count="all">
     <item group="groupWorkingStiffs01" count="1" />
@@ -3292,12 +3293,12 @@
     <item group="groupQuestWeaponsRangedT3" loot_prob_template="QuestT3Prob" />
   </lootgroup>
   <lootgroup name="groupQuestWeapons">
-    <item group="groupQuestWeaponsMelee" />
-    <item group="groupQuestWeaponsRanged" />
+    <item group="groupQuestWeaponsMelee" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupQuestWeaponsRanged" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupQuestWeaponsT1">
-    <item group="groupQuestWeaponsMeleeT1" />
-    <item group="groupQuestWeaponsRangedT1" />
+    <item group="groupQuestWeaponsMeleeT1" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupQuestWeaponsRangedT1" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupQuestAmmo">
     <item name="ammo9mmBulletBall" count="50" loot_prob_template="QuestT0Prob" />
@@ -3335,11 +3336,11 @@
   </lootgroup>
   <lootgroup name="groupQuestArmorT1" loot_quality_template="questT1QualTemplate">
     <item group="groupArmorParts" />
-    <group name="groupArmorScaled" />
+    <item group="groupArmorScaled" />
   </lootgroup>
   <lootgroup name="groupQuestArmorT2" loot_quality_template="questT2QualTemplate">
     <item group="groupArmorParts" />
-    <group name="groupArmorChests" />
+    <item group="groupArmorChests" />
   </lootgroup>
   <lootgroup name="groupQuestArmor">
     <item group="groupQuestArmorT1" loot_prob_template="QuestT1Prob" />
@@ -3365,8 +3366,8 @@
     <item name="toolBeaker" count="1" loot_prob_template="QuestT3Prob" />
   </lootgroup>
   <lootgroup name="groupQuestSchematics">
-    <item group="skillMagazines" loot_prob_template="high" />
-    <item group="perkBooks" loot_prob_template="medHigh" />
+    <item group="skillMagazines" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="perkBooks" loot_prob_template="medHigh" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="schematicsModsAndGeneralCommon" loot_prob_template="med" />
     <item name="foodCanShamSchematic" loot_prob_template="veryLow" />
   </lootgroup>
@@ -3676,17 +3677,17 @@
     <item name="questRewardT3RangedModsBundle" />
   </lootgroup>
   <lootgroup name="groupTreasureHunter5">
-    <item group="groupArmorScaled" />
-    <item group="groupWeaponsAllScaledNoParts" />
+    <item group="groupArmorScaled" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupWeaponsAllScaledNoParts" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="rareOres" />
     <item name="resourceLegendaryParts" count="1" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupBuriedWeaponChest01">
-    <item group="groupWeaponsAllScaled" prob="2" />
+    <item group="groupWeaponsAllScaled" prob="2" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupWeaponModsScaled" prob="1" />
   </lootgroup>
   <lootgroup name="groupBuriedWeaponChest02">
-    <item group="groupArmorScaled" prob="1" />
+    <item group="groupArmorScaled" prob="1" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupArmorModsScaled" prob="1" />
   </lootgroup>
   <lootgroup name="groupBuriedWeaponChest03">
@@ -3883,38 +3884,38 @@
   </lootgroup>
   <!-- *** Ammo_Sized_Groups -->
   <lootgroup name="groupAmmoSmall">
-    <item group="group9mmSmall" />
-    <item group="group762mmSmall" />
-    <item group="group44MagnumSmall" loot_prob_template="ProbT1Cap" />
-    <item group="groupShotgunShellSmall" />
+    <item group="group9mmSmall" tags="ammo9mm" />
+    <item group="group762mmSmall" tags="ammo762mm" />
+    <item group="group44MagnumSmall" loot_prob_template="ProbT1Cap" tags="ammo44Mag" />
+    <item group="groupShotgunShellSmall" tags="ammoShells" />
     <item group="groupArrowSmall" loot_prob_template="ProbT0Delayed" />
     <item group="groupCrossbowBoltSmall" loot_prob_template="ProbT1Cap" />
   </lootgroup>
   <lootgroup name="groupAmmoMedium">
-    <item group="group9mmMedium" />
-    <item group="group762mmMedium" />
-    <item group="group44MagnumMedium" loot_prob_template="ProbT1Cap" />
-    <item group="groupShotgunShellMedium" />
+    <item group="group9mmMedium" tags="ammo9mm" />
+    <item group="group762mmMedium" tags="ammo762mm" />
+    <item group="group44MagnumMedium" loot_prob_template="ProbT1Cap" tags="ammo44Mag" />
+    <item group="groupShotgunShellMedium" tags="ammoShells" />
     <item group="groupArrowMedium" loot_prob_template="ProbT0Delayed" />
     <item group="groupCrossbowBoltMedium" loot_prob_template="ProbT1Cap" />
   </lootgroup>
   <lootgroup name="groupAmmoSmallNoArrow">
-    <item group="group9mmSmall" />
-    <item group="group762mmSmall" />
-    <item group="group44MagnumSmall" loot_prob_template="ProbT1Cap" />
-    <item group="groupShotgunShellSmall" />
+    <item group="group9mmSmall" tags="ammo9mm" />
+    <item group="group762mmSmall" tags="ammo762mm" />
+    <item group="group44MagnumSmall" loot_prob_template="ProbT1Cap" tags="ammo44Mag" />
+    <item group="groupShotgunShellSmall" tags="ammoShells" />
   </lootgroup>
   <lootgroup name="groupAmmoMediumNoArrow">
-    <item group="group9mmMedium" />
-    <item group="group762mmMedium" />
-    <item group="group44MagnumMedium" loot_prob_template="ProbT1Cap" />
-    <item group="groupShotgunShellMedium" />
+    <item group="group9mmMedium" tags="ammo9mm" />
+    <item group="group762mmMedium" tags="ammo762mm" />
+    <item group="group44MagnumMedium" loot_prob_template="ProbT1Cap" tags="ammo44Mag" />
+    <item group="groupShotgunShellMedium" tags="ammoShells" />
   </lootgroup>
   <lootgroup name="groupAmmoLarge">
-    <item group="group9mmLarge" />
-    <item group="group762mmLarge" />
-    <item group="group44MagnumLarge" loot_prob_template="ProbT1Cap" />
-    <item group="groupShotgunShellLarge" />
+    <item group="group9mmLarge" tags="ammo9mm" />
+    <item group="group762mmLarge" tags="ammo762mm" />
+    <item group="group44MagnumLarge" loot_prob_template="ProbT1Cap" tags="ammo44Mag" />
+    <item group="groupShotgunShellLarge" tags="ammoShells" />
   </lootgroup>
   <!-- *** Ammo_Resource_Sized_Groups -->
   <lootgroup name="groupAmmoResourcesSmall">
@@ -3961,35 +3962,35 @@
   <!-- *** Weapon_Groups -->
   <lootgroup name="groupWeaponsLowHighMed">
     <item group="groupWeaponModsScaled" loot_prob_template="low" />
-    <item group="weaponParts" loot_prob_template="high" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" />
+    <item group="weaponParts" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsLowMedHigh">
     <item group="groupWeaponModsScaled" loot_prob_template="low" />
-    <item group="weaponParts" loot_prob_template="med" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" />
+    <item group="weaponParts" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsMedMedLow">
     <item group="groupWeaponModsScaled" loot_prob_template="med" />
-    <item group="weaponParts" loot_prob_template="med" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="low" />
+    <item group="weaponParts" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsMedMedMed">
     <item group="groupWeaponModsScaled" loot_prob_template="med" />
-    <item group="weaponParts" loot_prob_template="med" />
+    <item group="weaponParts" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsMedLow">
     <item group="groupWeaponModsScaled" loot_prob_template="medLow" />
-    <item group="weaponParts" loot_prob_template="high" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" />
+    <item group="weaponParts" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupWeaponsMedMedHigh">
     <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" />
   </lootgroup>
   <lootgroup name="groupWeaponsHighMedLow">
     <item group="groupWeaponModsScaled" loot_prob_template="high" />
-    <item group="weaponParts" loot_prob_template="med" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="low" />
+    <item group="weaponParts" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <!-- *** Rewards_Treasures_and_Rare_Item_Groups -->
   <!-- *** Cash_and_Prizes_Groups -->
@@ -4307,7 +4308,7 @@
   <lootgroup name="groupCupboard01">
     <item group="groupFoodTrashUncommon" loot_prob_template="high" />
     <item name="resourceCloth" count="1,4" loot_prob_template="low" />
-    <item group="groupFoodCommon" loot_prob_template="veryLow" />
+    <item group="groupFoodCommon" loot_prob_template="veryLow" tags="foodSkill" />
     <item name="foodSkillMagazine" loot_prob_template="veryLow" />
     <item name="drinkJarEmpty" loot_prob_template="veryLow" />
   </lootgroup>
@@ -4315,7 +4316,7 @@
     <item group="groupCookingTools" loot_prob_template="low" />
     <item group="groupIngredientsCommon" loot_prob_template="high" />
     <item name="foodSkillMagazine" loot_prob_template="veryLow" />
-    <item group="seeds" loot_prob_template="veryLow" />
+    <item group="seeds" loot_prob_template="veryLow" tags="seedSkill" />
   </lootgroup>
   <lootgroup name="groupCupboard" count="all">
     <item group="groupCupboard01" count="1" />
@@ -4325,11 +4326,11 @@
   <lootgroup name="groupMicrowave01">
     <item group="groupFoodTrashUncommon" loot_prob_template="high" />
     <!-- <item group="groupDrinksCommon" loot_prob_template="low"/> -->
-    <item group="groupFoodCommon" loot_prob_template="low" />
+    <item group="groupFoodCommon" loot_prob_template="low" tags="foodSkill" />
   </lootgroup>
   <lootgroup name="groupMicrowave02">
-    <item group="groupAmmoSmall" loot_prob_template="veryLow" />
-    <item group="groupFoodTrashUncommon" loot_prob_template="high" />
+    <item group="groupAmmoSmall" loot_prob_template="veryLow" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupFoodTrashUncommon" loot_prob_template="high" tags="foodSkill" />
   </lootgroup>
   <lootgroup name="groupMicrowave" count="all">
     <item group="groupMicrowave01" count="1" />
@@ -4386,8 +4387,8 @@
   <!-- *** ShoppingCart_Loot -->
   <lootgroup name="groupShoppingCart01">
     <item group="groupFoodTrashUncommon" loot_prob_template="high" />
-    <item group="groupFoodCommon" loot_prob_template="low" />
-    <item group="groupDrinksCommon" loot_prob_template="veryLow" />
+    <item group="groupFoodCommon" loot_prob_template="low" tags="foodSkill" />
+    <item group="groupDrinksCommon" loot_prob_template="veryLow" tags="foodSkill" />
   </lootgroup>
   <lootgroup name="groupShoppingCart02">
     <!-- <item group="groupDrinksCommon" loot_prob_template="low"/> -->
@@ -4489,8 +4490,8 @@
   </lootgroup>
   <!-- *** Pig_Trough -->
   <lootgroup name="groupPigTrough01">
-    <item group="seeds" loot_prob_template="high" />
-    <item group="groupFoodTrashUncommon" loot_prob_template="med" />
+    <item group="seeds" loot_prob_template="high" tags="seedSkill" />
+    <item group="groupFoodTrashUncommon" loot_prob_template="med" tags="foodSkill" />
     <item name="foodRottingFlesh" count="1,3" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupPigTrough" count="all">
@@ -4579,8 +4580,8 @@
     <item name="bookNightStalkerTwilightThief" />
   </lootgroup>
   <lootgroup name="groupSafeBooksAndMagazines">
-    <item group="weaponSkillMagazinesOnly" loot_prob_template="med" />
-    <item group="groupSafeBooks" loot_prob_template="medLow" />
+    <item group="weaponSkillMagazinesOnly" loot_prob_template="med" tags="bowSkill,spearSkill,bladeSkill,clubSkill,handgunSkill,shotgunSkill,rifleSkill,machinegunSkill,explosivesSkill,knuckleSkill,roboticsSkill" />
+    <item group="groupSafeBooks" loot_prob_template="medLow" tags="luckyProb,greatHeistProb,nightStalkerProb" />
   </lootgroup>
   <lootgroup name="groupGunSafeSecure" count="all">
     <item group="groupWeaponsMedMedHigh" count="1" />
@@ -4752,6 +4753,9 @@
     <item name="resourceYuccaFibers" count="1,3" loot_prob_template="medHigh">
       <requirement class="SandboxOption" option="HarvestingOutput" operation="EQ" value="0" />
     </item>
+    <item name="resourceCropCottonPlant" count="1,3" loot_prob_template="medHigh">
+      <requirement class="SandboxOption" option="CropOutput" operation="EQ" value="0" />
+    </item>
     <item group="groupFoodTrashCommon" loot_prob_template="medLow" />
     <item group="groupScrapCommon" loot_prob_template="med" />
     <item group="groupBuildingCommon" loot_prob_template="med" />
@@ -4799,8 +4803,8 @@
   </lootgroup>
   <lootgroup name="groupJunkNoBMats03" count="1">
     <item group="groupScrapRare" loot_prob_template="veryLow" />
-    <item group="booksAllScaled" loot_prob_template="veryLow" />
-    <item group="skillMagazines" count="1" loot_prob_template="veryLow" />
+    <item group="booksAllScaled" loot_prob_template="veryLow" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" loot_prob_template="veryLow" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="groupValuablesSmall" loot_prob_template="low" />
     <item name="resourceLockPick" count="1,2" loot_prob_template="veryLow" />
   </lootgroup>
@@ -4899,7 +4903,7 @@
   </lootgroup>
   <lootgroup name="groupFootlocker02">
     <item group="groupArmorParts" loot_prob_template="high" />
-    <item group="groupArmorScaled" loot_prob_template="medLow" />
+    <item group="groupArmorScaled" loot_prob_template="medLow" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupModAllScaled" loot_prob_template="low" />
     <item group="groupTreasureMaps" loot_prob_template="veryLow" />
   </lootgroup>
@@ -4923,11 +4927,11 @@
     <item group="groupMilitaryBooks" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupMilitaryFootlocker01">
-    <item group="groupAmmoSmall" loot_prob_template="high" />
-    <item group="weaponSkillMagazinesOnly" loot_prob_template="medHigh" />
+    <item group="groupAmmoSmall" loot_prob_template="high" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="weaponSkillMagazinesOnly" loot_prob_template="medHigh" tags="bowSkill,spearSkill,bladeSkill,clubSkill,handgunSkill,shotgunSkill,rifleSkill,machinegunSkill,explosivesSkill,knuckleSkill,roboticsSkill" />
     <item group="groupMilitaryBooks" loot_prob_template="med" />
-    <item group="groupAmmoMedium" loot_prob_template="med" />
-    <item group="groupAmmoLarge" loot_prob_template="low" />
+    <item group="groupAmmoMedium" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoLarge" loot_prob_template="low" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
     <item group="groupTreasureMaps" loot_prob_template="veryLow" />
     <item name="meleeToolFlashlight02" loot_prob_template="veryLow" />
   </lootgroup>
@@ -4956,19 +4960,19 @@
     <item group="groupAutomotive" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupCars02">
-    <item group="skillMagazines" loot_prob_template="low" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="vehiclesSkillMagazine" loot_prob_template="low" />
-    <item group="groupToolsT0" loot_prob_template="ProbT0" />
-    <item group="groupToolsT1" loot_prob_template="ProbT1" />
-    <item group="groupWeaponsT0_Melee" loot_prob_template="ProbT0" />
-    <item group="groupWeaponsT1_Melee" loot_prob_template="ProbT1" />
+    <item group="groupToolsT0" loot_prob_template="ProbT0" tags="harvestingSkill" />
+    <item group="groupToolsT1" loot_prob_template="ProbT1" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupWeaponsT0_Melee" loot_prob_template="ProbT0" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupWeaponsT1_Melee" loot_prob_template="ProbT1" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupCars03">
-    <item group="skillMagazines" loot_prob_template="med" />
-    <item group="groupAmmoSmall" loot_prob_template="low" />
-    <item group="groupAmmoMedium" loot_prob_template="veryLow" />
-    <item group="groupWeaponsT0_Ranged" loot_prob_template="ProbT0" />
-    <item group="groupWeaponsT1_Ranged" loot_prob_template="ProbT1" />
+    <item group="skillMagazines" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="groupAmmoSmall" loot_prob_template="low" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoMedium" loot_prob_template="veryLow" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupWeaponsT0_Ranged" loot_prob_template="ProbT0" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupWeaponsT1_Ranged" loot_prob_template="ProbT1" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupCarsA" count="all">
     <item group="groupCars01" count="2" />
@@ -5013,8 +5017,8 @@
     <item group="skillMagazines" count="1" loot_prob_template="high" />
   </lootgroup>
   <lootgroup name="groupFileCabinet02">
-    <item group="booksAllScaled" loot_prob_template="low" />
-    <item group="skillMagazines" loot_prob_template="low" />
+    <item group="booksAllScaled" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="booksRareOnlyScaled" loot_prob_template="veryLow" />
     <item name="plantedGraceCorn1Schematic" loot_prob_template="veryLow" />
   </lootgroup>
@@ -5027,9 +5031,9 @@
   </lootgroup>
   <!-- *** Purse_Loot -->
   <lootgroup name="groupPurse01">
-    <item group="groupFoodCommon" loot_prob_template="med" />
-    <item group="groupMedicalCommon" loot_prob_template="low" />
-    <item group="groupMedicalUncommon" loot_prob_template="veryLow" />
+    <item group="groupFoodCommon" loot_prob_template="med" tags="foodSkill" />
+    <item group="groupMedicalCommon" loot_prob_template="low" tags="medicalSkill" />
+    <item group="groupMedicalUncommon" loot_prob_template="veryLow" tags="medicalSkill" />
   </lootgroup>
   <lootgroup name="groupPurse02">
     <item name="oldCash" count="5,10" loot_prob_template="high" />
@@ -5037,7 +5041,7 @@
     <item name="resourceLockPick" count="1,3" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupPurse03">
-    <item group="groupWeaponsT1_Gunslinger" loot_prob_template="veryLow" />
+    <item group="groupWeaponsT1_Gunslinger" loot_prob_template="veryLow" tags="handgunSkill" />
     <item group="foodCandy" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupPurse" count="all">
@@ -5063,8 +5067,8 @@
     <item group="dyes" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupPOIStorageBox02">
-    <item group="booksAllScaled" loot_prob_template="low" />
-    <item group="skillMagazines" count="1" loot_prob_template="low" />
+    <item group="booksAllScaled" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="resourceGoldNugget" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupPOIStorageBox" count="all">
@@ -5102,9 +5106,9 @@
     <item name="resourceForgedSteel" count="5,10" />
   </lootgroup>
   <lootgroup name="groupWorkbenchLoot04">
-    <item group="groupToolsTiered" />
-    <item group="groupRareToolsTiered" />
-    <item group="vehiclePartsTiered" />
+    <item group="groupToolsTiered" tags="harvestingSkill" />
+    <item group="groupRareToolsTiered" tags="harvestingSkill" />
+    <item group="vehiclePartsTiered" tags="vehiclesSkill" />
     <item name="workstationSkillMagazine" loot_prob_template="high" />
   </lootgroup>
   <lootgroup name="groupWorkbenchLoot" count="all">
@@ -5239,7 +5243,7 @@
     <item name="resourceNail" count="5,10" loot_prob_template="high" />
     <item name="resourceMetalPipe" count="1,3" loot_prob_template="high" />
     <item name="resourceLockPick" count="1,2" loot_prob_template="med" />
-    <item group="toolParts" loot_prob_template="medLow" />
+    <item group="toolParts" loot_prob_template="medLow" tags="sledgeSkill,harvestingSkill,repairingSkill,salvagingSkill" />
   </lootgroup>
   <lootgroup name="groupRollingToolbox02">
     <item name="resourceMechanicalParts" count="1,3" loot_prob_template="high" />
@@ -5260,8 +5264,8 @@
     <item name="electricianSkillMagazine" loot_prob_template="medLow" />
     <item name="trapsSkillMagazine" loot_prob_template="medLow" />
     <item name="meleeToolWireTool" loot_prob_template="medLow" />
-    <item group="groupToolsT1Wrench" loot_prob_template="low" />
-    <item group="groupToolsT1ClawHammer" loot_prob_template="veryLow" />
+    <item group="groupToolsT1Wrench" loot_prob_template="low" tags="salvagingSkill" />
+    <item group="groupToolsT1ClawHammer" loot_prob_template="veryLow" tags="repairingSkill" />
     <item name="resourceForgedSteel" count="1,4" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupRollingToolbox" count="all">
@@ -5304,13 +5308,13 @@
     <item name="gunBotRoboticsParts" count="1,4" loot_prob_template="med" />
     <item name="gunBotT1JunkSledge" loot_prob_template="veryLow" />
     <item name="gunBotT2JunkTurret" loot_prob_template="veryLow" />
-    <item group="groupDrone" loot_prob_template="ProbT3" />
+    <item group="groupDrone" loot_prob_template="ProbT3" tags="roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupMoPowerShelvesBooks">
     <item name="electricianSkillMagazine" loot_prob_template="high" />
     <item name="trapsSkillMagazine" loot_prob_template="med" />
     <item name="roboticsSkillMagazine" loot_prob_template="high" />
-    <item group="groupBotSchematics" loot_prob_template="low" />
+    <item group="groupBotSchematics" loot_prob_template="low" tags="roboticsCSM" />
   </lootgroup>
   <lootgroup name="groupMoPowerShelves01">
     <item name="resourceScrapPolymers" count="2,4" loot_prob_template="med" />
@@ -5341,15 +5345,15 @@
   </lootgroup>
   <lootgroup name="groupMoPower03">
     <item name="carBattery" loot_prob_template="medLow" />
-    <item group="groupStunBaton" loot_prob_template="med" />
-    <item group="groupTechJunkieBooks" loot_prob_template="med" />
-    <item group="groupRobotics" loot_prob_template="low" />
+    <item group="groupStunBaton" loot_prob_template="med" tags="roboticsSkill" />
+    <item group="groupTechJunkieBooks" loot_prob_template="med" tags="techJunkieProb" />
+    <item group="groupRobotics" loot_prob_template="low" tags="roboticsSkill" />
   </lootgroup>
   <lootgroup name="groupMoPower04">
-    <item group="groupElectricalDevices" loot_prob_template="med" />
+    <item group="groupElectricalDevices" loot_prob_template="med" tags="electricianSkill" />
     <item name="electricianSkillMagazine" loot_prob_template="high" />
     <item name="trapsSkillMagazine" loot_prob_template="med" />
-    <item group="groupBotSchematics" loot_prob_template="low" />
+    <item group="groupBotSchematics" loot_prob_template="low" tags="roboticsCSM" />
     <item name="meleeToolWireTool" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupMoPowerA" count="all">
@@ -5405,22 +5409,22 @@
   </lootgroup>
   <!-- *** Army_Truck -->
   <lootgroup name="groupArmyTruck01">
-    <item group="groupFoodCommon" loot_prob_template="medLow" />
-    <item group="groupDrinksCommon" loot_prob_template="med" />
+    <item group="groupFoodCommon" loot_prob_template="medLow" tags="foodSkill" />
+    <item group="groupDrinksCommon" loot_prob_template="med" tags="foodSkill" />
     <item group="groupFoodTrashUncommon" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupArmyTruck02">
-    <item group="groupSmallAmmoMedMed" />
-    <item group="weaponParts" loot_prob_template="medLow" />
+    <item group="groupSmallAmmoMedMed" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="weaponParts" loot_prob_template="medLow" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupArmyTruck03">
-    <item group="groupWeaponsAllScaled" loot_prob_template="low" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupWeaponModsScaled" loot_prob_template="low" />
-    <item group="weaponParts" loot_prob_template="low" />
-    <item group="groupMilitaryBooks" loot_prob_template="low" />
+    <item group="weaponParts" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupMilitaryBooks" loot_prob_template="low" tags="sniperProb,autoWeaponsProb,shotgunMessiahProb,pistolPeteProb,urbanProb" />
   </lootgroup>
   <lootgroup name="groupArmyTruck04">
-    <item group="groupArmorScaled" loot_prob_template="low" />
+    <item group="groupArmorScaled" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupArmorModsScaled" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupArmyTruck" count="all">
@@ -5434,10 +5438,10 @@
   </lootgroup>
   <!-- *** Farm_Truck -->
   <lootgroup name="groupFarmTruck01">
-    <item group="groupFoodCommon" loot_prob_template="medLow" />
-    <item group="groupDrinksCommon" loot_prob_template="med" />
-    <item group="groupFoodTrashUncommon" loot_prob_template="medHigh" />
-    <item group="seeds" loot_prob_template="high" />
+    <item group="groupFoodCommon" loot_prob_template="medLow" tags="foodSkill" />
+    <item group="groupDrinksCommon" loot_prob_template="med" tags="foodSkill" />
+    <item group="groupFoodTrashUncommon" loot_prob_template="medHigh" tags="foodSkill" />
+    <item group="seeds" loot_prob_template="high" tags="seedSkill" />
   </lootgroup>
   <lootgroup name="groupFarmTruck02">
     <item group="groupToolbox" loot_prob_template="med" />
@@ -5461,8 +5465,8 @@
   </lootgroup>
   <!-- *** Police_Car -->
   <lootgroup name="groupPoliceCar01">
-    <item group="groupSmallAmmoMedMed" />
-    <item group="weaponParts" loot_prob_template="medLow" />
+    <item group="groupSmallAmmoMedMed" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="weaponParts" loot_prob_template="medLow" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupPoliceCar02">
     <item group="groupFoodCommon" loot_prob_template="medLow" />
@@ -5470,12 +5474,12 @@
     <item group="groupFoodTrashUncommon" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupPoliceCar03">
-    <item group="groupWeaponsAllScaled" loot_prob_template="low" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupWeaponModsScaled" loot_prob_template="low" />
-    <item group="weaponParts" loot_prob_template="low" />
+    <item group="weaponParts" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupPoliceCar04">
-    <item group="groupArmorScaled" loot_prob_template="low" />
+    <item group="groupArmorScaled" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupArmorModsScaled" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupPoliceCar" count="all">
@@ -5492,15 +5496,15 @@
     <item group="groupWeaponsAllScaled" />
   </lootgroup>
   <lootgroup name="groupPoliceCarBonus03">
-    <item group="groupFoodUncommon" loot_prob_template="medLow" />
-    <item group="groupDrinksUncommon" loot_prob_template="med" />
+    <item group="groupFoodUncommon" loot_prob_template="medLow" tags="foodSkill" />
+    <item group="groupDrinksUncommon" loot_prob_template="med" tags="foodSkill" />
     <item name="drinkJarBoiledWater" loot_prob_template="med" />
     <item name="drinkJarPureMineralWater" loot_prob_template="med" />
     <item name="medicalFirstAidKit" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupPoliceCarBonus04">
     <item group="groupWeaponModsScaled" loot_prob_template="med" />
-    <item group="gunPartsOnly" loot_prob_template="med" />
+    <item group="gunPartsOnly" loot_prob_template="med" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupPoliceCarBonus" count="all">
     <item group="groupPoliceCarBonus01" count="2" />
@@ -5512,13 +5516,13 @@
   <!-- *** Bookcase_Loot -->
   <lootgroup name="groupBookcase01">
     <item name="resourcePaper" count="1,5" loot_prob_template="low" />
-    <item group="skillMagazines" count="1,3" loot_prob_template="med" />
-    <item group="booksAllScaled" loot_prob_template="high" />
+    <item group="skillMagazines" count="1,3" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupBookcase02">
     <item name="resourcePaper" count="1,5" loot_prob_template="low" />
-    <item group="skillMagazines" count="1,3" loot_prob_template="med" />
-    <item group="booksAllScaled" loot_prob_template="high" />
+    <item group="skillMagazines" count="1,3" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupBookcase" count="all">
     <item group="groupBookcase01" count="1" />
@@ -5529,14 +5533,14 @@
   </lootgroup>
   <!-- *** Mailbox_Loot -->
   <lootgroup name="groupMailbox01">
-    <item group="perkBooks" loot_prob_template="high" />
-    <item group="skillMagazines" count="1" loot_prob_template="med" />
+    <item group="perkBooks" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="resourcePaper" count="3,6" loot_prob_template="medLow" />
   </lootgroup>
   <lootgroup name="groupMailbox02">
     <item name="resourcePaper" count="3,6" loot_prob_template="medHigh" />
-    <item group="booksAllScaled" loot_prob_template="med" />
-    <item group="skillMagazines" count="1" loot_prob_template="low" />
+    <item group="booksAllScaled" loot_prob_template="med" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="plantedGraceCorn1Schematic" loot_prob_template="low">
       <requirement class="Biome" biomes="wasteland" />
     </item>
@@ -5550,8 +5554,8 @@
   </lootgroup>
   <!-- *** Book_Pile -->
   <lootgroup name="groupBookPile01">
-    <item group="skillMagazines" count="1,2" loot_prob_template="high" />
-    <item group="booksAllScaled" loot_prob_template="medLow" />
+    <item group="skillMagazines" count="1,2" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medLow" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupBookPile" count="all">
     <item group="groupBookPile01" count="1" />
@@ -5561,8 +5565,8 @@
   </lootgroup>
   <!-- *** Single_Books -->
   <lootgroup name="groupSingleBooks01">
-    <item group="skillMagazines" loot_prob_template="high" />
-    <item group="booksAllScaled" loot_prob_template="medLow" />
+    <item group="skillMagazines" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medLow" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupSingleBooks" count="all">
     <item group="groupSingleBooks01" count="1" />
@@ -5570,8 +5574,8 @@
   <!-- *** Crackabook_Shelves -->
   <lootgroup name="groupCrackabookShelves01">
     <item name="resourcePaper" count="1,5" loot_prob_template="low" />
-    <item group="skillMagazines" count="1" loot_prob_template="high" />
-    <item group="booksAllScaled" loot_prob_template="medLow" />
+    <item group="skillMagazines" count="1" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medLow" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupCrackabookShelves02">
     <item group="booksAllScaled" />
@@ -5589,12 +5593,12 @@
     <item group="booksAllScaled" />
   </lootgroup>
   <lootgroup name="groupCrackabookCrate02">
-    <item group="booksAllScaled" />
-    <item group="skillMagazines" count="1" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupCrackabookCrate03">
-    <item group="booksAllScaled" />
-    <item group="skillMagazines" count="1" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" count="1" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupCrackabookCrate" count="all">
     <item group="groupCrackabookCrate01" count="1" />
@@ -5606,24 +5610,24 @@
   </lootgroup>
   <!-- *** Backpack_Loot -->
   <lootgroup name="groupBackpacksBooks">
-    <item group="skillMagazines" loot_prob_template="medLow" />
-    <item group="perkBooks" loot_prob_template="low" />
+    <item group="skillMagazines" loot_prob_template="medLow" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="perkBooks" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupBackpacks01">
-    <item group="groupArmorParts" />
+    <item group="groupArmorParts" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCupboard" />
-    <item group="survivalMedical" />
-    <item group="skillMagazines" loot_prob_template="medLow" />
+    <item group="survivalMedical" tags="medicalSkill" />
+    <item group="skillMagazines" loot_prob_template="medLow" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="resourceGlue" count="1,2" loot_prob_template="low" />
     <item name="drinkJarEmpty" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupBackpacks02">
-    <item group="groupWeaponsT0_All" loot_prob_template="ProbT0" />
-    <item group="groupArmorScaled" />
-    <item group="weaponParts" loot_prob_template="medHigh" />
+    <item group="groupWeaponsT0_All" loot_prob_template="ProbT0" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill" />
+    <item group="groupArmorScaled" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="weaponParts" loot_prob_template="medHigh" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupWeaponModsScaled" loot_prob_template="medLow" />
-    <item group="groupWeaponsAllScaled" loot_prob_template="medLow" />
-    <item group="perkBooks" loot_prob_template="low" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="medLow" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="perkBooks" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item name="resourceRepairKit" count="1,2" loot_prob_template="low" />
     <item name="meleeToolFlashlight02" loot_prob_template="low" />
     <item group="foodCandy" loot_prob_template="low" />
@@ -5637,16 +5641,16 @@
   </lootgroup>
   <!-- *** Camping_Tents -->
   <lootgroup name="groupCampingTents01">
-    <item group="groupArmorParts" />
+    <item group="groupArmorParts" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCupboard" />
-    <item group="survivalMedical" />
-    <item group="skillMagazines" loot_prob_template="medLow" />
+    <item group="survivalMedical" tags="medicalSkill" />
+    <item group="skillMagazines" loot_prob_template="medLow" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item name="drinkJarEmpty" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupCampingTents02">
-    <item group="groupWeaponsT0_All" loot_prob_template="ProbT0" />
-    <item group="groupArmorScaled" />
-    <item group="perkBooks" loot_prob_template="low" />
+    <item group="groupWeaponsT0_All" loot_prob_template="ProbT0" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill" />
+    <item group="groupArmorScaled" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="perkBooks" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item name="meleeToolFlashlight02" loot_prob_template="low" />
     <item name="lanternDecorLightBlockVariantHelper" loot_prob_template="low" />
     <item name="toolCookingPot" loot_prob_template="veryLow" random_durability="false" />
@@ -5668,7 +5672,7 @@
   </lootgroup>
   <lootgroup name="groupPassNGas01">
     <item name="resourceRepairKit" count="2,5" loot_prob_template="medLow" />
-    <item group="groupToolsTiered" loot_prob_template="med" />
+    <item group="groupToolsTiered" loot_prob_template="med" tags="harvestingSkill" />
     <item name="harvestingToolsSkillMagazine" loot_prob_template="medHigh" />
     <item name="repairToolsSkillMagazine" loot_prob_template="medHigh" />
     <item name="salvageToolsSkillMagazine" loot_prob_template="medHigh" />
@@ -5680,9 +5684,9 @@
     <item name="ammoGasCan" count="10,50" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupPassNGas03">
-    <item group="vehiclePartsTiered" loot_prob_template="medLow" />
+    <item group="vehiclePartsTiered" loot_prob_template="medLow" tags="vehiclesSkill" />
     <item group="vehicleModSchematics" loot_prob_template="medLow" />
-    <item group="groupRareToolsTiered" loot_prob_template="veryLow" />
+    <item group="groupRareToolsTiered" loot_prob_template="veryLow" tags="harvestingSkill" />
     <item name="harvestingToolsSkillMagazine" loot_prob_template="high" />
     <item name="repairToolsSkillMagazine" loot_prob_template="high" />
     <item name="salvageToolsSkillMagazine" loot_prob_template="high" />
@@ -5787,22 +5791,22 @@
     <item name="spearsSkillMagazine" loot_prob_template="high" />
     <item name="bladesSkillMagazine" loot_prob_template="high" />
     <item name="clubsSkillMagazine" loot_prob_template="high" />
-    <item group="groupArmorScaled" loot_prob_template="low" />
+    <item group="groupArmorScaled" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupArmorModsScaled" loot_prob_template="medLow" />
-    <item group="groupArmorParts" loot_prob_template="low" />
+    <item group="groupArmorParts" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item name="gunBowT1WoodenBowParts" count="1,4" loot_prob_template="medLow" />
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate02">
-    <item group="groupSavageCountryBooks" loot_prob_template="medLow" />
-    <item group="groupSavageCountryMagazines" loot_prob_template="medLow" />
+    <item group="groupSavageCountryBooks" loot_prob_template="medLow" tags="rangersProb,spearHunterProb,huntingProb,batterUpProb" />
+    <item group="groupSavageCountryMagazines" loot_prob_template="medLow" tags="armorLightSkill,armorMediumSkill,armorHeavySkill,bowSkill,spearSkill,bladeSkill,clubSkill" />
     <item name="resourceSewingKit" count="1,2" loot_prob_template="low" />
     <item name="resourceCloth" count="3,5" loot_prob_template="high" />
-    <item group="groupMedicalCommon" loot_prob_template="med" />
+    <item group="groupMedicalCommon" loot_prob_template="med" tags="medicalSkill" />
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate03">
-    <item group="groupWeaponsMeleeScaled" loot_prob_template="med" />
-    <item group="groupHuntingRanged" loot_prob_template="high" />
-    <item group="groupAmmoLarge" loot_prob_template="med" />
+    <item group="groupWeaponsMeleeScaled" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
+    <item group="groupHuntingRanged" loot_prob_template="high" tags="bowSkill,rifleSkill" />
+    <item group="groupAmmoLarge" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate" count="all">
     <item group="groupSavageCountryCrate01" count="1" />
@@ -5817,32 +5821,32 @@
     <item group="groupScrapUncommon" loot_prob_template="high" />
     <item name="resourceCobblestones" count="10,50" loot_prob_template="high" />
     <item name="resourceGlue" count="1,2" loot_prob_template="high" />
-    <item group="groupMedicalUncommon" loot_prob_template="high" />
-    <item group="groupDrinksUncommon" loot_prob_template="high" />
-    <item group="groupFoodUncommon" loot_prob_template="high" />
+    <item group="groupMedicalUncommon" loot_prob_template="high" tags="medicalSkill" />
+    <item group="groupDrinksUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="high" tags="foodSkill" />
     <item name="resourceDuctTape" count="1,2" loot_prob_template="med" />
     <item name="resourceMechanicalParts" count="1,2" loot_prob_template="veryLow" />
     <item name="resourceAcid" count="1" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupZpackReg02">
-    <item group="skillMagazines" loot_prob_template="medHigh" />
-    <item group="booksAllScaled" loot_prob_template="medHigh" />
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medHigh" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" />
   </lootgroup>
   <lootgroup name="groupZpackReg03">
-    <item group="groupArmorParts" loot_prob_template="med" />
+    <item group="groupArmorParts" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCraftingRare" loot_prob_template="med" />
-    <item group="groupArmorPartsChests" loot_prob_template="low" />
-    <item group="groupArmorScaled" loot_prob_template="medHigh" />
-    <item group="groupToolsTiered" loot_prob_template="medHigh" />
+    <item group="groupArmorPartsChests" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupArmorScaled" loot_prob_template="medHigh" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupToolsTiered" loot_prob_template="medHigh" tags="harvestingSkill,salvagingSkill" />
   </lootgroup>
   <lootgroup name="groupZpackReg04">
-    <item group="groupRareToolsTiered" loot_prob_template="high" />
-    <item group="groupWeaponsAllScaled" loot_prob_template="high" />
-    <item group="groupModAllScaled" loot_prob_template="med" />
+    <item group="groupRareToolsTiered" loot_prob_template="high" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupModAllScaled" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item name="casinoCoin" count="200,400" loot_prob_template="med" />
     <item name="oldCash" count="200,400" loot_prob_template="med" />
-    <item group="groupMedicalRare" loot_prob_template="medHigh" />
+    <item group="groupMedicalRare" loot_prob_template="medHigh" tags="medicalSkill" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
     <item name="modArmorNightVision" loot_prob_template="veryLow" />
     <item name="modArmorHelmetLight" loot_prob_template="veryLow" />
@@ -5866,8 +5870,8 @@
     <item name="resourceGlue" count="1,2" loot_prob_template="med" />
     <item name="casinoCoin" count="25,100" loot_prob_template="med" />
     <item name="oldCash" count="25,100" loot_prob_template="med" />
-    <item group="groupDrinksUncommon" loot_prob_template="med" />
-    <item group="groupFoodUncommon" loot_prob_template="med" />
+    <item group="groupDrinksUncommon" loot_prob_template="med" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="med" tags="foodSkill" />
     <item name="medicalSplint" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupZpackNurseB" count="1">
@@ -5900,8 +5904,8 @@
     <item name="resourceGlue" count="1,2" loot_prob_template="medHigh" />
     <item name="casinoCoin" count="25,100" loot_prob_template="medHigh" />
     <item name="oldCash" count="25,100" loot_prob_template="medHigh" />
-    <item group="groupDrinksUncommon" loot_prob_template="med" />
-    <item group="groupFoodUncommon" loot_prob_template="med" />
+    <item group="groupDrinksUncommon" loot_prob_template="med" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="med" tags="foodSkill" />
     <item name="resourceSewingKit" loot_prob_template="med" />
     <item name="drugVitamins" loot_prob_template="med" />
     <item name="drugPainkillers" loot_prob_template="med" />
@@ -5918,8 +5922,8 @@
     <item name="trapsSkillMagazine" />
     <item name="vehiclesSkillMagazine" />
     <item name="medicalSkillMagazine" />
-    <item group="groupTechJunkieBooks" loot_prob_template="low" />
-    <item group="groupBotSchematics" loot_prob_template="low" />
+    <item group="groupTechJunkieBooks" loot_prob_template="low" tags="techJunkieProb" />
+    <item group="groupBotSchematics" loot_prob_template="low" tags="roboticsCSM" />
   </lootgroup>
   <lootgroup name="groupZpackLab" count="all">
     <item group="groupZpackLab01" count="2,4" />
@@ -5937,8 +5941,8 @@
     <item name="resourceGlue" count="1,2" loot_prob_template="medHigh" />
     <item name="casinoCoin" count="25,100" loot_prob_template="medHigh" />
     <item name="oldCash" count="25,100" loot_prob_template="medHigh" />
-    <item group="groupDrinksUncommon" loot_prob_template="low" />
-    <item group="groupFoodUncommon" loot_prob_template="low" />
+    <item group="groupDrinksUncommon" loot_prob_template="low" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="low" tags="foodSkill" />
     <item name="resourceElectricParts" count="1,2" loot_prob_template="low" />
     <item name="resourceMechanicalParts" count="1,2" loot_prob_template="low" />
     <item name="resourceDuctTape" count="1,4" loot_prob_template="low" />
@@ -5951,9 +5955,9 @@
     <item name="salvageToolsSkillMagazine" />
     <item name="sledgehammersSkillMagazine" />
     <item name="workstationSkillMagazine" />
-    <item group="groupSledgeSagaBooks" loot_prob_template="low" />
-    <item group="groupArtOfMiningBooks" loot_prob_template="low" />
-    <item group="groupWasteTreasuresBooks" loot_prob_template="low" />
+    <item group="groupSledgeSagaBooks" loot_prob_template="low" tags="sledgeSagaProb" />
+    <item group="groupArtOfMiningBooks" loot_prob_template="low" tags="artOfMiningProb" />
+    <item group="groupWasteTreasuresBooks" loot_prob_template="low" tags="wastelandProb" />
   </lootgroup>
   <lootgroup name="groupZpackUtility" count="all">
     <item group="groupZpackUtility01" count="2,4" />
@@ -5964,14 +5968,14 @@
   </lootgroup>
   <!-- *** Zpack_Soldier -->
   <lootgroup name="groupZpackSoldier01" count="1">
-    <item group="groupAmmoLarge" count="1" />
+    <item group="groupAmmoLarge" count="1" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
     <item name="casinoCoin" count="25,100" loot_prob_template="medHigh" />
     <item name="oldCash" count="25,100" loot_prob_template="medHigh" />
     <item name="drugPainkillers" loot_prob_template="med" />
     <item name="drugSteroids" loot_prob_template="med" />
     <item name="medicalFirstAidBandage" loot_prob_template="med" />
-    <item group="groupDrinksUncommon" loot_prob_template="low" />
-    <item group="groupFoodUncommon" loot_prob_template="low" />
+    <item group="groupDrinksUncommon" loot_prob_template="low" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="low" tags="foodSkill" />
     <item name="armorParts" count="1,2" loot_prob_template="low" />
     <item name="resourceDuctTape" count="1,4" loot_prob_template="low" />
     <item name="gunHandgunT1PistolParts" count="1,2" loot_prob_template="low" />
@@ -5988,12 +5992,12 @@
     <item name="explosivesSkillMagazine" />
     <item name="vehiclesSkillMagazine" />
     <item name="armorSkillMagazine" />
-    <item group="groupUrbanCombatBooks" loot_prob_template="low" />
-    <item group="groupPistolBooks" loot_prob_template="low" />
-    <item group="groupEnforcerBooks" loot_prob_template="low" />
-    <item group="groupShotgunMessiahBooks" loot_prob_template="low" />
-    <item group="groupSniperBooks" loot_prob_template="low" />
-    <item group="groupAutoWeaponsBooks" loot_prob_template="low" />
+    <item group="groupUrbanCombatBooks" loot_prob_template="low" tags="urbanProb" />
+    <item group="groupPistolBooks" loot_prob_template="low" tags="pistolPeteProb" />
+    <item group="groupEnforcerBooks" loot_prob_template="low" tags="enforcerProb" />
+    <item group="groupShotgunMessiahBooks" loot_prob_template="low" tags="shotgunMessiahProb" />
+    <item group="groupSniperBooks" loot_prob_template="low" tags="sniperProb" />
+    <item group="groupAutoWeaponsBooks" loot_prob_template="low" tags="autoWeaponsProb" />
   </lootgroup>
   <lootgroup name="groupZpackSoldier" count="all">
     <item group="groupZpackSoldier01" count="2,4" />
@@ -6004,14 +6008,14 @@
   </lootgroup>
   <!-- *** Zpack_Thug -->
   <lootgroup name="groupZpackThug01" count="1">
-    <item group="groupAmmoLarge" count="1" />
+    <item group="groupAmmoLarge" count="1" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
     <item name="casinoCoin" count="50,200" loot_prob_template="medHigh" />
     <item name="oldCash" count="50,200" loot_prob_template="medHigh" />
     <item name="drugSteroids" loot_prob_template="med" />
     <item name="thrownAmmoPipeBomb" count="1,5" loot_prob_template="medLow" />
     <item name="thrownAmmoMolotovCocktail" count="1,5" loot_prob_template="medLow" />
-    <item group="groupDrinksUncommon" loot_prob_template="low" />
-    <item group="groupFoodUncommon" loot_prob_template="low" />
+    <item group="groupDrinksUncommon" loot_prob_template="low" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="low" tags="foodSkill" />
     <item name="armorParts" count="1,2" loot_prob_template="low" />
     <item name="gunHandgunT1PistolParts" count="1,2" loot_prob_template="low" />
     <item name="gunRifleT1HuntingRifleParts" count="1,2" loot_prob_template="low" />
@@ -6029,16 +6033,15 @@
     <item name="explosivesSkillMagazine" />
     <item name="vehiclesSkillMagazine" />
     <item name="armorSkillMagazine" />
-    <item group="groupBatterUpBooks" loot_prob_template="low" />
-    <item group="groupBarBrawlingBooks" loot_prob_template="low" />
-    <item group="groupLuckyLooterBooks" loot_prob_template="low" />
-    <item group="groupUrbanCombatBooks" loot_prob_template="low" />
-    <item group="groupPistolBooks" loot_prob_template="low" />
-    <item group="groupEnforcerBooks" loot_prob_template="low" />
-    <item group="groupEnforcerBooks" loot_prob_template="low" />
-    <item group="groupShotgunMessiahBooks" loot_prob_template="low" />
-    <item group="groupSniperBooks" loot_prob_template="low" />
-    <item group="groupAutoWeaponsBooks" loot_prob_template="low" />
+    <item group="groupBatterUpBooks" loot_prob_template="low" tags="batterUpProb" />
+    <item group="groupBarBrawlingBooks" loot_prob_template="low" tags="barBrawlingProb" />
+    <item group="groupLuckyLooterBooks" loot_prob_template="low" tags="luckyProb" />
+    <item group="groupUrbanCombatBooks" loot_prob_template="low" tags="urbanProb" />
+    <item group="groupPistolBooks" loot_prob_template="low" tags="pistolPeteProb" />
+    <item group="groupEnforcerBooks" loot_prob_template="low" tags="enforcerProb" />
+    <item group="groupShotgunMessiahBooks" loot_prob_template="low" tags="shotgunMessiahProb" />
+    <item group="groupSniperBooks" loot_prob_template="low" tags="sniperProb" />
+    <item group="groupAutoWeaponsBooks" loot_prob_template="low" tags="autoWeaponsProb" />
   </lootgroup>
   <lootgroup name="groupZpackThug" count="all">
     <item group="groupZpackThug01" count="2,4" />
@@ -6051,34 +6054,34 @@
   <lootgroup name="groupZpackStrong01">
     <item group="groupScrapUncommon" loot_prob_template="high" />
     <item name="resourceGlue" count="1,2" loot_prob_template="low" />
-    <item group="groupFoodUncommon" loot_prob_template="high" />
-    <item group="groupDrinksUncommon" loot_prob_template="high" />
+    <item group="groupFoodUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupDrinksUncommon" loot_prob_template="high" tags="foodSkill" />
     <item name="resourceDuctTape" count="1,2" loot_prob_template="med" />
     <item name="resourceMechanicalParts" count="1,2" loot_prob_template="veryLow" />
-    <item group="groupMedicalUncommon" loot_prob_template="med" />
+    <item group="groupMedicalUncommon" loot_prob_template="med" tags="medicalSkill" />
     <item name="resourceAcid" count="1" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupZpackStrong02">
-    <item group="skillMagazines" loot_prob_template="medHigh" />
-    <item group="booksAllScaled" loot_prob_template="medHigh" />
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medHigh" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" />
   </lootgroup>
   <lootgroup name="groupZpackStrong03">
-    <item group="groupArmorParts" loot_prob_template="med" />
-    <item group="groupArmorPartsChests" loot_prob_template="low" />
-    <item group="groupToolsTiered" loot_prob_template="medHigh" />
-    <item group="groupArmorScaled" loot_prob_template="medHigh" />
+    <item group="groupArmorParts" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupArmorPartsChests" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupToolsTiered" loot_prob_template="medHigh" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupArmorScaled" loot_prob_template="medHigh" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCraftingRare" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupZpackStrong04">
-    <item group="groupRareToolsTiered" loot_prob_template="high" />
-    <item group="groupWeaponsAllScaled" loot_prob_template="high" />
+    <item group="groupRareToolsTiered" loot_prob_template="high" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item name="casinoCoin" count="400,600" loot_prob_template="med" />
     <item name="oldCash" count="400,600" loot_prob_template="med" />
-    <item group="groupMedicalRare" loot_prob_template="medHigh" />
+    <item group="groupMedicalRare" loot_prob_template="medHigh" tags="medicalSkill" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
     <item group="groupModAllScaled" loot_prob_template="med" />
-    <item group="vehiclePartsTiered" loot_prob_template="med" />
+    <item group="vehiclePartsTiered" loot_prob_template="med" tags="vehiclesSkill" />
     <item name="modArmorNightVision" loot_prob_template="veryLow" />
     <item name="modArmorHelmetLight" loot_prob_template="veryLow" />
   </lootgroup>
@@ -6096,34 +6099,34 @@
   <lootgroup name="groupZpackPlague01">
     <item group="groupScrapUncommon" loot_prob_template="high" />
     <item name="resourceGlue" count="1,2" loot_prob_template="low" />
-    <item group="groupFoodUncommon" loot_prob_template="high" />
-    <item group="groupDrinksUncommon" loot_prob_template="high" />
+    <item group="groupFoodUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupDrinksUncommon" loot_prob_template="high" tags="foodSkill" />
     <item name="resourceDuctTape" count="1,2" loot_prob_template="med" />
     <item name="resourceMechanicalParts" count="1,2" loot_prob_template="veryLow" />
-    <item group="groupMedicalUncommon" loot_prob_template="med" />
+    <item group="groupMedicalUncommon" loot_prob_template="med" tags="medicalSkill" />
     <item name="resourceAcid" count="1" loot_prob_template="veryLow" />
   </lootgroup>
   <lootgroup name="groupZpackPlague02">
-    <item group="skillMagazines" loot_prob_template="medHigh" />
-    <item group="booksAllScaled" loot_prob_template="medHigh" />
-    <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" />
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medHigh" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupZpackPlague03">
-    <item group="groupArmorParts" loot_prob_template="med" />
-    <item group="groupArmorPartsChests" loot_prob_template="low" />
-    <item group="groupToolsTiered" loot_prob_template="medHigh" />
-    <item group="groupArmorScaled" loot_prob_template="medHigh" />
+    <item group="groupArmorParts" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupArmorPartsChests" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupToolsTiered" loot_prob_template="medHigh" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupArmorScaled" loot_prob_template="medHigh" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCraftingRare" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupZpackPlague04">
-    <item group="groupRareToolsTiered" loot_prob_template="high" />
-    <item group="groupWeaponsAllScaled" loot_prob_template="high" />
+    <item group="groupRareToolsTiered" loot_prob_template="high" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item name="casinoCoin" count="400,600" loot_prob_template="med" />
     <item name="oldCash" count="400,600" loot_prob_template="med" />
-    <item group="groupMedicalRare" loot_prob_template="medHigh" />
+    <item group="groupMedicalRare" loot_prob_template="medHigh" tags="medicalSkill" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
     <item group="groupModAllScaled" loot_prob_template="med" />
-    <item group="vehiclePartsTiered" loot_prob_template="med" />
+    <item group="vehiclePartsTiered" loot_prob_template="med" tags="vehiclesSkill" />
     <item name="modArmorNightVision" loot_prob_template="veryLow" />
     <item name="modArmorHelmetLight" loot_prob_template="veryLow" />
   </lootgroup>
@@ -6143,9 +6146,9 @@
     <item group="groupScrapUncommon" loot_prob_template="high" />
     <item name="resourceGlue" count="1,2" loot_prob_template="high" />
     <item name="resourceDuctTape" count="1,2" loot_prob_template="high" />
-    <item group="groupFoodUncommon" loot_prob_template="high" />
-    <item group="groupDrinksUncommon" loot_prob_template="high" />
-    <item group="groupMedicalUncommon" loot_prob_template="med" />
+    <item group="groupFoodUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupDrinksUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupMedicalUncommon" loot_prob_template="med" tags="medicalSkill" />
     <item name="resourceMechanicalParts" count="1,2" loot_prob_template="veryLow" />
     <item name="resourceAcid" count="1" loot_prob_template="veryLow" />
     <item name="plantedGraceCorn1" count="2,3" loot_prob_template="veryLow" />
@@ -6157,27 +6160,27 @@
     </item>
   </lootgroup>
   <lootgroup name="groupZpackBoss02">
-    <item group="skillMagazines" loot_prob_template="medHigh" />
-    <item group="booksAllScaled" loot_prob_template="medHigh" />
-    <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" />
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" loot_prob_template="medHigh" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupZpackBoss03">
-    <item group="groupArmorPartsChests" loot_prob_template="low" />
-    <item group="groupToolsTiered" loot_prob_template="medHigh" />
-    <item group="groupArmorChests" loot_prob_template="medHigh" />
+    <item group="groupArmorPartsChests" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupToolsTiered" loot_prob_template="medHigh" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupArmorChests" loot_prob_template="medHigh" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupCraftingRare" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupZpackBoss04">
-    <item group="groupRareToolsTiered" loot_prob_template="high" />
+    <item group="groupRareToolsTiered" loot_prob_template="high" tags="harvestingSkill,salvagingSkill" />
     <item group="booksRareOnlyScaled" loot_prob_template="med" />
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item name="casinoCoin" count="600,800" loot_prob_template="med" />
     <item name="oldCash" count="600,800" loot_prob_template="med" />
-    <item group="groupMedicalRare" loot_prob_template="medHigh" />
+    <item group="groupMedicalRare" loot_prob_template="medHigh" tags="medicalSkill" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
     <item name="modArmorNightVision" loot_prob_template="veryLow" />
     <item group="groupModAllScaled" loot_prob_template="med" />
-    <item group="vehiclePartsTiered" loot_prob_template="med" />
+    <item group="vehiclePartsTiered" loot_prob_template="med" tags="vehiclesSkill" />
     <item name="modArmorHelmetLight" loot_prob_template="veryLow" />
     <item name="plantedGraceCorn1Schematic" loot_prob_template="veryLow" />
   </lootgroup>
@@ -6192,6 +6195,44 @@
         <item group="groupHolidayGear" loot_prob_template="low" force_prob="true" />
       </if>
     </conditional>
+    <item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
+      <requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance" />
+    </item>
+  </lootgroup>
+  <!-- *** Bandit_Reg -->
+  <lootgroup name="groupBanditReg01">
+    <item group="groupWeaponsAllScaled" loot_prob_template="high" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupModAllScaled" loot_prob_template="medHigh" />
+    <item group="groupToolsTiered" loot_prob_template="med" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupArmorScaled" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupRareToolsTiered" loot_prob_template="med" />
+  </lootgroup>
+  <lootgroup name="groupBanditReg02">
+    <item group="groupDrinksUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupFoodUncommon" loot_prob_template="high" tags="foodSkill" />
+    <item group="groupMedicalUncommon" loot_prob_template="high" tags="medicalSkill" />
+    <item group="groupMedicalRare" loot_prob_template="medHigh" tags="medicalSkill" />
+  </lootgroup>
+  <lootgroup name="groupBanditReg03">
+    <item group="groupArmorParts" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupCraftingRare" loot_prob_template="med" />
+    <item group="groupArmorPartsChests" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+  </lootgroup>
+  <lootgroup name="groupBanditReg04">
+    <item group="booksAllScaled" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item name="casinoCoin" count="200,400" loot_prob_template="med" />
+    <item name="oldCash" count="200,400" loot_prob_template="med" />
+    <item group="groupTreasureMaps" loot_prob_template="low" />
+    <item name="modArmorNightVision" loot_prob_template="veryLow" />
+    <item name="modArmorHelmetLight" loot_prob_template="veryLow" />
+  </lootgroup>
+  <lootgroup name="groupBanditReg" count="all">
+    <item group="groupAmmoLarge" count="1" />
+    <item group="groupBanditReg01" count="1" />
+    <item group="groupBanditReg02" count="1" />
+    <item group="groupBanditReg03" loot_prob_template="med" force_prob="true" />
+    <item group="groupBanditReg04" loot_prob_template="medLow" force_prob="true" />
     <item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
       <requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance" />
     </item>
@@ -6212,15 +6253,15 @@
   </lootgroup>
   <!-- *** Small_Safe -->
   <lootgroup name="groupSmallSafeLoot01">
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="high" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupModAllScaled" loot_prob_template="med" />
     <item group="groupSchematicsAll" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupSmallSafeLoot02">
-    <item group="groupAmmoSmall" loot_prob_template="high" />
-    <item group="groupAmmoMedium" loot_prob_template="med" />
-    <item group="groupAmmoLarge" loot_prob_template="low" />
-    <item group="groupSafeBooks" loot_prob_template="medLow" />
+    <item group="groupAmmoSmall" loot_prob_template="high" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoMedium" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoLarge" loot_prob_template="low" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupSafeBooks" loot_prob_template="medLow" tags="luckyProb,greatHeistProb,nightStalkerProb" />
   </lootgroup>
   <lootgroup name="groupSmallSafeLoot03">
     <item name="oldCash" count="10,300" loot_prob_template="low" />
@@ -6290,15 +6331,15 @@
     <item group="groupWeaponsMedLow" />
   </lootgroup>
   <lootgroup name="groupShotgunMessiahCrate02">
-    <item group="groupAmmoMedium" loot_prob_template="med" />
-    <item group="groupAmmoResourcesMedium" loot_prob_template="med" />
-    <item group="groupShotgunMessiahCrateBooks" loot_prob_template="medLow" />
-    <item group="groupShotgunMessiahCrateMagazines" loot_prob_template="medLow" />
+    <item group="groupAmmoMedium" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoResourcesMedium" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupShotgunMessiahCrateBooks" loot_prob_template="medLow" tags="pistolPeteProb,enforcerProb,shotgunMessiahProb,sniperProb,autoWeaponsProb,urbanProb" />
+    <item group="groupShotgunMessiahCrateMagazines" loot_prob_template="medLow" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupShotgunMessiahCrate03">
-    <item group="groupAmmoSmall" loot_prob_template="med" />
-    <item group="groupAmmoResourcesSmall" loot_prob_template="med" />
-    <item group="weaponParts" loot_prob_template="medLow" />
+    <item group="groupAmmoSmall" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupAmmoResourcesSmall" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="weaponParts" loot_prob_template="medLow" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
   </lootgroup>
   <lootgroup name="groupShotgunMessiahCrate04">
     <item group="groupAmmoSmall" loot_prob_template="med" />
@@ -6371,10 +6412,10 @@
     <item name="medicalSkillMagazine" loot_prob_template="high" />
     <item name="knucklesSkillMagazine" loot_prob_template="high" />
     <item group="groupMedicalCommon" loot_prob_template="med" />
-    <item group="groupMedicalUncommon" loot_prob_template="high" />
-    <item group="groupMedicalRare" loot_prob_template="low" />
-    <item group="groupPopNPillsBooks" loot_prob_template="medLow" />
-    <item group="groupPopNPillsMagazines" loot_prob_template="medLow" />
+    <item group="groupMedicalUncommon" loot_prob_template="high" tags="medicalSkill" />
+    <item group="groupMedicalRare" loot_prob_template="low" tags="medicalSkill" />
+    <item group="groupPopNPillsBooks" loot_prob_template="medLow" tags="barBrawlingProb" />
+    <item group="groupPopNPillsMagazines" loot_prob_template="medLow" tags="knuckleSkill,medicalSkill" />
   </lootgroup>
   <lootgroup name="groupPopNPillsCrate03">
     <item group="groupMedicalCommon" loot_prob_template="med" />
@@ -6413,20 +6454,20 @@
     <item group="groupAmmoSmall" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT1_02">
-    <item group="groupWeaponsAllScaledNoStone" />
-    <item group="groupArmorChests" />
+    <item group="groupWeaponsAllScaled" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT1_03">
     <item name="medicalFirstAidBandage" count="1,2" loot_prob_template="high" />
     <item name="medicalFirstAidKit" count="1" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT1_04">
-    <item group="groupReinforcedChestT1_03" count="1" loot_prob_template="high" />
-    <item group="groupShamwayCrate01" count="1" loot_prob_template="high" />
+    <item group="groupReinforcedChestT1_03" count="1" loot_prob_template="high" tags="medicalSkill" />
+    <item group="groupShamwayCrate01" count="1" loot_prob_template="high" tags="foodSkill" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT1_05">
     <item group="groupModAllScaled" count="1" loot_prob_template="high" />
-    <item group="perkBooks" count="1" loot_prob_template="high" />
+    <item group="perkBooks" count="1" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT1" count="all">
     <item group="groupReinforcedChestT1_01" count="1" />
@@ -6451,16 +6492,16 @@
     <item group="groupAmmoMedium" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT2_02">
-    <item group="groupWeaponsAllScaledNoStone" />
-    <item group="groupArmorChests" />
+    <item group="groupWeaponsAllScaledNoStone" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT2_03">
     <item name="medicalFirstAidBandage" count="1,2" loot_prob_template="high" />
     <item name="medicalFirstAidKit" count="1" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT2_05">
-    <item group="groupReinforcedChestT2_03" count="1" loot_prob_template="high" />
-    <item group="groupShamwayCrate01" count="1" loot_prob_template="high" />
+    <item group="groupReinforcedChestT2_03" count="1" loot_prob_template="high" tags="medicalSkill" />
+    <item group="groupShamwayCrate01" count="1" loot_prob_template="high" tags="foodSkill" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT2_06">
     <item group="groupModAllScaled" count="1" />
@@ -6493,8 +6534,8 @@
     <item group="groupAmmoLarge" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT3_02">
-    <item group="groupWeaponsAllScaledNoStone" />
-    <item group="groupArmorChests" />
+    <item group="groupWeaponsAllScaledNoStone" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT3_03">
     <item name="medicalFirstAidBandage" count="1,2" loot_prob_template="high" />
@@ -6504,8 +6545,8 @@
     <item group="groupModAllScaled" count="1" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT3_05">
-    <item group="booksAllScaled" />
-    <item group="skillMagazines" loot_prob_template="med" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupReinforcedChestT3_06">
@@ -6544,8 +6585,8 @@
     <item group="groupAmmoSmallNoArrow" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT4_04">
-    <item group="groupWeaponsAllScaledNoStone" />
-    <item group="groupArmorChests" />
+    <item group="groupWeaponsAllScaledNoStone" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT4_05">
     <item name="medicalFirstAidBandage" count="1,2" loot_prob_template="high" />
@@ -6555,8 +6596,8 @@
     <item group="groupModAllScaled" count="1" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT4_07">
-    <item group="booksAllScaled" />
-    <item group="skillMagazines" loot_prob_template="med" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT4_08">
@@ -6602,8 +6643,8 @@
     <item group="groupAmmoLarge" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT5_02">
-    <item group="groupWeaponsAllScaledNoStone" />
-    <item group="groupArmorChests" />
+    <item group="groupWeaponsAllScaledNoStone" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT5_03">
     <item name="medicalFirstAidKit" count="5" />
@@ -6612,8 +6653,8 @@
     <item group="groupModAllScaled" count="1" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT5_05">
-    <item group="booksAllScaled" />
-    <item group="skillMagazines" loot_prob_template="med" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="med" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="groupTreasureMaps" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupHardenedChestT5_06">
@@ -6737,14 +6778,14 @@
   </lootgroup>
   <!-- *** Desks_Loot -->
   <lootgroup name="groupDesks01">
-    <item group="groupArmorParts" loot_prob_template="high" />
+    <item group="groupArmorParts" loot_prob_template="high" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupJunkNoBMats" loot_prob_template="med" />
-    <item group="booksAllScaled" loot_prob_template="low" />
-    <item group="skillMagazines" loot_prob_template="low" />
-    <item group="groupAmmoSmall" loot_prob_template="veryLow" />
+    <item group="booksAllScaled" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="groupAmmoSmall" loot_prob_template="veryLow" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
   </lootgroup>
   <lootgroup name="groupDesks02">
-    <item group="groupMedicalCommon" loot_prob_template="high" />
+    <item group="groupMedicalCommon" loot_prob_template="high" tags="medicalSkill" />
     <item group="foodCandy" loot_prob_template="low" />
     <item name="meleeToolFlashlight02" loot_prob_template="veryLow" />
     <item name="modArmorCigar" loot_prob_template="veryLow" />
@@ -6756,17 +6797,17 @@
   </lootgroup>
   <!-- *** Luggage_Loot -->
   <lootgroup name="groupLuggage01">
-    <item group="groupArmorParts" />
-    <item group="skillMagazines" loot_prob_template="low" />
+    <item group="groupArmorParts" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupLuggage02">
-    <item group="groupFoodCommon" loot_prob_template="low" />
-    <item group="groupDrinksCommon" loot_prob_template="medHigh" />
-    <item group="groupArmorScaled" loot_prob_template="med" />
-    <item group="groupMedicalCommon" loot_prob_template="medLow" />
-    <item group="booksAllScaled" loot_prob_template="low" />
-    <item group="skillMagazines" loot_prob_template="low" />
-    <item group="groupAmmoSmall" loot_prob_template="veryLow" />
+    <item group="groupFoodCommon" loot_prob_template="low" tags="foodSkill" />
+    <item group="groupDrinksCommon" loot_prob_template="medHigh" tags="foodSkill" />
+    <item group="groupArmorScaled" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupMedicalCommon" loot_prob_template="medLow" tags="medicalSkill" />
+    <item group="booksAllScaled" loot_prob_template="low" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="groupAmmoSmall" loot_prob_template="veryLow" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
   </lootgroup>
   <lootgroup name="groupLuggage" count="all">
     <item group="groupLuggage01" count="1" />
@@ -6777,12 +6818,12 @@
   </lootgroup>
   <!-- *** Nightstand_Loot -->
   <lootgroup name="groupNightstand01">
-    <item group="groupArmorParts" loot_prob_template="high" />
+    <item group="groupArmorParts" loot_prob_template="high" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupJunkNoBMats" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupNightstand02">
-    <item group="groupMedicalCommon" loot_prob_template="low" />
-    <item group="groupAmmoSmall" loot_prob_template="low" />
+    <item group="groupMedicalCommon" loot_prob_template="low" tags="medicalSkill" />
+    <item group="groupAmmoSmall" loot_prob_template="low" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
     <item name="oldCash" count="1,20" loot_prob_template="low" />
     <item name="gunHandgunT1Pistol" loot_prob_template="veryLow" />
   </lootgroup>
@@ -6792,16 +6833,16 @@
   </lootgroup>
   <!-- *** Locker_Loot -->
   <lootgroup name="groupLocker01">
-    <item group="groupArmorParts" loot_prob_template="high" />
-    <item group="groupArmorScaled" loot_prob_template="low" />
+    <item group="groupArmorParts" loot_prob_template="high" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupArmorScaled" loot_prob_template="low" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupJunkNoBMats" loot_prob_template="med" />
   </lootgroup>
   <lootgroup name="groupLocker02">
-    <item group="groupWeaponsAllScaled" loot_prob_template="low" />
+    <item group="groupWeaponsAllScaled" loot_prob_template="low" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupWeaponModsScaled" loot_prob_template="med" />
-    <item group="groupToolsTiered" loot_prob_template="low" />
-    <item group="booksAllScaled" loot_prob_template="veryLow" />
-    <item group="skillMagazines" loot_prob_template="low" />
+    <item group="groupToolsTiered" loot_prob_template="low" tags="harvestingSkill,salvagingSkill" />
+    <item group="booksAllScaled" loot_prob_template="veryLow" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="low" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="foodCandy" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupLocker" count="all">
@@ -6869,14 +6910,14 @@
   </lootgroup>
   <!-- *** Hidden_Stash -->
   <lootgroup name="groupHiddenStash01">
-    <item group="groupAmmoPileLarge" loot_prob_template="med" />
+    <item group="groupAmmoPileLarge" loot_prob_template="med" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
     <item group="groupModAllScaled" loot_prob_template="med" />
-    <item group="booksAllScaled" loot_prob_template="med" />
-    <item group="skillMagazines" loot_prob_template="high" />
+    <item group="booksAllScaled" loot_prob_template="med" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
+    <item group="skillMagazines" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
   <lootgroup name="groupHiddenStash02">
-    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" />
-    <item group="groupArmorChests" loot_prob_template="med" />
+    <item group="groupWeaponsAllScaledNoStone" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
+    <item group="groupArmorChests" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="booksRareOnlyScaled" loot_prob_template="med" />
     <item group="groupValuablesLarge" loot_prob_template="med" />
     <item name="workstationSkillMagazine" count="1" loot_prob_template="med" />
@@ -6912,10 +6953,10 @@
   </lootgroup>
   <lootgroup name="groupConstructionCrate02">
     <item name="meleeToolWireTool" loot_prob_template="med" />
-    <item group="groupElectricalDevices" loot_prob_template="med" />
+    <item group="groupElectricalDevices" loot_prob_template="med" tags="electricianSkill" />
     <item name="resourceForgedSteel" count="5,10" loot_prob_template="medLow" />
     <item name="resourceForgedIron" count="5,10" loot_prob_template="medLow" />
-    <item group="groupToolsTiered" loot_prob_template="medLow" />
+    <item group="groupToolsTiered" loot_prob_template="medLow" tags="harvestingSkill,salvagingSkill" />
     <item name="workstationSkillMagazine" loot_prob_template="med" />
     <item group="workstationToolsScaled" loot_prob_template="low" />
   </lootgroup>
@@ -6928,7 +6969,7 @@
   </lootgroup>
   <!-- *** Airdrop_Food -->
   <lootgroup name="airdropfood">
-    <item group="cannedfood" />
+    <item group="cannedfood" tags="foodSkill" />
     <item name="foodGrilledMeat" />
     <item name="foodBaconAndEggs" />
     <item name="foodBlueberryPie" />
@@ -6967,15 +7008,15 @@
   </lootgroup>
   <!-- *** Air_Drop -->
   <lootgroup name="groupAirDropT1Bundles">
-    <item group="groupQuestT1Books" />
+    <item group="groupQuestT1Books" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="groupQuestT1MeleeMods" />
     <item group="groupQuestT1RangedMods" />
     <item group="groupQuestFarmPlotsT1" />
-    <item group="groupQuestT0Firearms" />
+    <item group="groupQuestT0Firearms" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill" />
     <!-- <item group="groupQuestT0MediumArmor"/> -->
     <!-- <item group="groupQuestT0HeavyArmor"/> -->
-    <item group="groupQuestWrench" />
-    <item group="groupQuestClawHammer" />
+    <item group="groupQuestWrench" tags="harvestingSkill" />
+    <item group="groupQuestClawHammer" tags="repairingSkill" />
     <!-- <item group="groupQuestT2Food"/> -->
     <item group="groupQuestWoodShapes" />
   </lootgroup>
@@ -6984,8 +7025,8 @@
     <item group="groupQuestT2MeleeMods" />
     <item group="groupQuestT2RangedMods" />
     <item group="groupQuestFarmPlotsT2" />
-    <item group="groupQuestT1Firearms" />
-    <item group="groupQuestNailgun" />
+    <item group="groupQuestT1Firearms" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill" />
+    <item group="groupQuestNailgun" tags="repairingSkill" />
     <!-- <item group="groupQuestT0MediumArmorBonus"/> -->
     <!-- <item group="groupQuestT0HeavyArmorBonus"/> -->
     <item group="groupQuestForgedIron" />
@@ -6997,7 +7038,7 @@
     <item group="groupQuestT3MeleeMods" />
     <item group="groupQuestT3RangedMods" />
     <item group="groupQuestFarmPlotsT3" />
-    <item group="groupQuestT2Firearms" />
+    <item group="groupQuestT2Firearms" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill" />
     <!-- <item group="groupQuestT1MediumArmor"/> -->
     <!-- <item group="groupQuestT1HeavyArmor"/> -->
     <item group="groupQuestTimedCharges" />
@@ -7005,7 +7046,7 @@
   <lootgroup name="groupAirDropT4Bundles">
     <item group="groupQuestT3MeleeMods" />
     <item group="groupQuestT3RangedMods" />
-    <item group="groupQuestT3Firearms" />
+    <item group="groupQuestT3Firearms" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill" />
     <!-- <item group="groupQuestT2MediumArmor"/> -->
     <!-- <item group="groupQuestT2HeavyArmor"/> -->
     <!-- <item group="groupQuestT4Food"/> -->
@@ -7018,7 +7059,7 @@
     <!-- <item group="groupQuestT2MediumArmorBonus"/> -->
     <!-- <item group="groupQuestT2HeavyArmorBonus"/> -->
     <item group="groupQuestForgedSteel" />
-    <item group="groupQuestT3Firearms" />
+    <item group="groupQuestT3Firearms" tags="rifleSkill,shotgunSkill,handgunSkill,machinegunSkill" />
     <item group="groupQuestSteelShapes" />
   </lootgroup>
   <lootgroup name="groupAirDrop01">
@@ -7029,17 +7070,17 @@
     <item group="groupAirDropT5Bundles" loot_prob_template="ProbT3" />
   </lootgroup>
   <lootgroup name="groupAirDrop02">
-    <item group="airdropfooddrink" count="1" />
-    <item group="airdropMedicine" count="1,2" />
+    <item group="airdropfooddrink" count="1" tags="foodSkill" />
+    <item group="airdropMedicine" count="1,2" tags="medicalSkill" />
   </lootgroup>
   <lootgroup name="groupAirDrop03">
-    <item group="groupToolsTiered" />
-    <item group="groupAmmoLarge" />
-    <item group="groupArmorScaled" />
-    <item group="groupWeaponsAllScaled" />
+    <item group="groupToolsTiered" tags="harvestingSkill,salvagingSkill" />
+    <item group="groupAmmoLarge" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells" />
+    <item group="groupArmorScaled" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
+    <item group="groupWeaponsAllScaled" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill,rifleSkill,shotgunSkill,handgunSkill,machinegunSkill,bowSkill,explosivesSkill" />
     <item group="groupModAllScaled" />
-    <item group="skillMagazines" />
-    <item group="booksAllScaled" />
+    <item group="skillMagazines" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="booksAllScaled" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb" />
     <item group="booksRareOnlyScaled" />
     <item name="workstationSkillMagazine" />
     <item name="plantedGraceCorn1Schematic" loot_prob_template="veryLow" />
@@ -7273,11 +7314,11 @@
     <item name="ammoArrowIron" count="15,30" />
   </lootgroup>
   <lootgroup name="twitch_tier0ranged" count="1">
-    <item group="twitch_tier0pistol" />
-    <item group="twitch_tier0machinegun" />
-    <item group="twitch_tier0shotgun" />
-    <item group="twitch_tier0rifle" />
-    <item group="twitch_bowarrow" />
+    <item group="twitch_tier0pistol" tags="handgunSkill" />
+    <item group="twitch_tier0machinegun" tags="machinegunSkill" />
+    <item group="twitch_tier0shotgun" tags="shotgunSkill" />
+    <item group="twitch_tier0rifle" tags="rifleSkill" />
+    <item group="twitch_bowarrow" tags="bowSkill" />
   </lootgroup>
   <lootgroup name="twitch_tier0weapon" count="all">
     <item group="twitch_tier0ranged" />
@@ -7309,12 +7350,12 @@
     <item name="ammoArrowIron" count="15,30" />
   </lootgroup>
   <lootgroup name="twitch_tier1ranged" count="1">
-    <item group="twitch_ironcrossbow" />
-    <item group="twitch_pistol" />
-    <item group="twitch_AK47" />
-    <item group="twitch_doubleshotgun" />
-    <item group="twitch_huntingrifle" />
-    <item group="twitch_woodenbow" />
+    <item group="twitch_ironcrossbow" tags="bowSkill" />
+    <item group="twitch_pistol" tags="handgunSkill" />
+    <item group="twitch_AK47" tags="machinegunSkill" />
+    <item group="twitch_doubleshotgun" tags="shotgunSkill" />
+    <item group="twitch_huntingrifle" tags="rifleSkill" />
+    <item group="twitch_woodenbow" tags="bowSkill" />
   </lootgroup>
   <lootgroup name="twitch_tier1weapon" count="all">
     <item group="twitch_tier1ranged" />
@@ -7346,12 +7387,12 @@
     <item name="ammoArrowIron" count="15,30" />
   </lootgroup>
   <lootgroup name="twitch_tier2ranged" count="1">
-    <item group="twitch_SMG" />
-    <item group="twitch_magnum" />
-    <item group="twitch_TacticalAR" />
-    <item group="twitch_pumpshotgun" />
-    <item group="twitch_leveractionrifle" />
-    <item group="twitch_compoundbow" />
+    <item group="twitch_SMG" tags="handgunSkill" />
+    <item group="twitch_magnum" tags="handgunSkill" />
+    <item group="twitch_TacticalAR" tags="machinegunSkill" />
+    <item group="twitch_pumpshotgun" tags="shotgunSkill" />
+    <item group="twitch_leveractionrifle" tags="rifleSkill" />
+    <item group="twitch_compoundbow" tags="bowSkill" />
   </lootgroup>
   <lootgroup name="twitch_tier2weapon" count="all">
     <item group="twitch_tier2ranged" />
@@ -7379,11 +7420,11 @@
     <item name="ammo762mmBulletBall" count="50,75" />
   </lootgroup>
   <lootgroup name="twitch_tier3ranged" count="1">
-    <item group="twitch_compoundcrossbow" />
-    <item group="twitch_desertVulture" />
-    <item group="twitch_M60" />
-    <item group="twitch_autoshotgun" />
-    <item group="twitch_sniperrifle" />
+    <item group="twitch_compoundcrossbow" tags="bowSkill" />
+    <item group="twitch_desertVulture" tags="handgunSkill" />
+    <item group="twitch_M60" tags="machinegunSkill" />
+    <item group="twitch_autoshotgun" tags="shotgunSkill" />
+    <item group="twitch_sniperrifle" tags="rifleSkill" />
   </lootgroup>
   <lootgroup name="twitch_tier3weapon" count="all">
     <item group="twitch_tier3ranged" />
@@ -7408,7 +7449,7 @@
     <item name="ammoRocketFrag" count="1,5" />
   </lootgroup>
   <lootgroup name="twitch_explosivesT3" count="2">
-    <item group="twitch_rocketlauncher" />
+    <item group="twitch_rocketlauncher" tags="explosivesSkill" />
     <item name="thrownAmmoMolotovCocktail" count="2,3" />
     <item name="thrownDynamite" count="2,3" />
   </lootgroup>
@@ -7545,8 +7586,8 @@
     <item name="ammoGasCan" count="200,600" />
   </lootgroup>
   <lootgroup name="twitch_tier3tool" count="1">
-    <item group="twitch_toolchainsaw" />
-    <item group="twitch_toolauger" />
+    <item group="twitch_toolchainsaw" tags="harvestingSkill" />
+    <item group="twitch_toolauger" tags="harvestingSkill" />
     <item name="meleeToolSalvageT3ImpactDriver" />
   </lootgroup>
   <lootgroup name="twitch_tool3" count="all">
@@ -8169,12 +8210,12 @@
     <item name="switch" count="1" />
     <item name="tripwirepost" count="2,4" />
     <item name="speaker" count="1" />
-    <item group="twitch_lights1" />
+    <item group="twitch_lights1" tags="electricianSkill" />
   </lootgroup>
   <lootgroup name="twitch_components2" count="1">
     <item name="motionsensor" count="1" />
     <item name="electrictimerrelay" count="1" />
-    <item group="twitch_lights2" />
+    <item group="twitch_lights2" tags="electricianSkill" />
   </lootgroup>
   <lootgroup name="twitch_dart" count="all">
     <item name="dartTrap" count="1" />
@@ -8194,9 +8235,9 @@
   </lootgroup>
   <lootgroup name="twitch_trap2" count="1">
     <item name="bladeTrap" count="1" />
-    <item group="twitch_autoturret" count="1" />
-    <item group="twitch_shotgunturret" count="1" />
-    <item group="twitch_dart" />
+    <item group="twitch_autoturret" count="1" tags="trapsSkill" />
+    <item group="twitch_shotgunturret" count="1" tags="trapsSkill" />
+    <item group="twitch_dart" tags="trapsSkill" />
   </lootgroup>
   <lootgroup name="twitch_electrical1" count="all">
     <item name="meleeToolWireTool" count="1" />

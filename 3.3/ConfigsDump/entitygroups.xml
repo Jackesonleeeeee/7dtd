@@ -10508,7 +10508,7 @@
     <e n="zombieUtilityWorker" />
     <e n="zombieSpider" p="0.12" />
     <e n="zombieYo" />
-    <e n="zombieScreamer" p="0.2" />
+    <!-- <e n="zombieScreamer" p="0.2" /> -->
     <e n="zombieTomClark" />
     <e n="zombieDarlene" />
     <e n="zombieArlene" />
@@ -10537,7 +10537,7 @@
     <e n="zombieArlene" />
     <e n="zombieLumberjack" p="0.28" />
     <e n="zombieFatCop" p="0.23" />
-    <e n="zombieScreamer" p="0.25" />
+    <!-- <e n="zombieScreamer" p="0.25" /> -->
     <e n="zombieSpider" p="0.19" />
     <e n="zombieMaleHazmat" p="0.26" />
     <e n="zombieInmate" />
@@ -10551,7 +10551,7 @@
     <e n="zombieBoe" />
     <e n="zombieMaleHazmat" p="0.31" />
     <e n="zombiePartyGirl" />
-    <e n="zombieScreamer" p="0.27" />
+    <!-- <e n="zombieScreamer" p="0.27" /> -->
     <e n="zombieSkateboarder" p="0.23" />
     <e n="zombieUtilityWorker" />
     <e n="zombieBurnt" />
@@ -10575,7 +10575,7 @@
     <e n="zombieMoe" />
     <e n="zombieFatCop" p="0.38" />
     <e n="zombieMaleHazmat" p="0.41" />
-    <e n="zombieScreamer" p="0.32" />
+    <!-- <e n="zombieScreamer" p="0.32" /> -->
     <e n="zombieFemaleFat" p="0.35" />
     <e n="zombieInmate" />
     <e n="zombieSpider" p="0.32" />
@@ -10603,7 +10603,7 @@
     <e n="zombieSpider" p="0.41" />
     <e n="zombieDarlene" />
     <e n="zombieInmateFeral" p="0.31" />
-    <e n="zombieScreamer" p="0.38" />
+    <!-- <e n="zombieScreamer" p="0.38" /> -->
     <e n="zombieBoeFeral" p="0.36" />
     <e n="zombieTomClark" />
     <e n="zombieFatCop" p="0.48" />
@@ -10628,7 +10628,7 @@
     <e n="zombieFemaleFat" p="0.56" />
     <e n="zombieBoeFeral" p="0.47" />
     <e n="zombieMoeFeral" p="0.37" />
-    <e n="zombieScreamer" p="0.43" />
+    <!-- <e n="zombieScreamer" p="0.43" /> -->
     <e n="zombieFatHawaiian" p="0.58" />
     <e n="zombieBowler" p="0.1" />
     <e n="zombieFatCop" p="0.59" />
@@ -10642,7 +10642,7 @@
     <e n="zombieJoeFeral" p="0.47" />
     <e n="zombieSpider" p="0.55" />
     <e n="zombieFatCop" p="0.65" />
-    <e n="zombieScreamer" p="0.46" />
+    <!-- <e n="zombieScreamer" p="0.46" /> -->
     <e n="zombiePartyGirlFeral" p="0.4" />
     <e n="zombieSteve" />
     <e n="zombieTomClark" />
@@ -10767,12 +10767,12 @@
     <e n="zombieSpider" p="0.6" />
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombieMoeFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieLabFeral" p="0.8" />
     <e n="zombieLabRadiated" p="0.54" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
-    <e n="zombieScreamerRadiated" p="0.29" />
+    <!-- <e n="zombieScreamerRadiated" p="0.29" /> -->
     <e n="zombieYoRadiated" p="0.49" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS172">
@@ -10782,7 +10782,7 @@
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombieBoeFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieMoeFeral" p="0.8" />
@@ -10800,7 +10800,7 @@
     <e n="zombieWightRadiated" p="0.49" />
     <e n="zombieUtilityWorker" />
     <e n="zombieSpider" p="0.6" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS189">
     <e n="zombieWightRadiated" p="0.54" />
@@ -10826,7 +10826,7 @@
     <e n="zombieBoeFeral" p="0.8" />
     <e n="zombieUtilityWorkerFeral" p="0.8" />
     <e n="zombieSoldier" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieFemaleFat" p="0.8" />
   </entitygroup>
@@ -10852,7 +10852,7 @@
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieSteveRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombieInmateFeral" p="0.8" />
@@ -10886,7 +10886,7 @@
     <e n="zombieBusinessManRadiated" p="0.7" />
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieBusinessMan" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBurntFeral" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS243">
@@ -10935,7 +10935,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS272">
     <e n="zombieUtilityWorkerFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
     <e n="zombieYo" />
@@ -11008,7 +11008,7 @@
   <entitygroup name="scoutHordeStageGS322">
     <e n="zombieBikerRadiated" p="0.7" />
     <e n="zombieBikerInfernal" p="0.5" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieFatHawaiian" p="0.8" />
     <e n="zombieBowler" p="0.1" />
     <e n="zombieFemaleFat" p="0.8" />
@@ -11026,7 +11026,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS332">
     <e n="zombieLumberjackFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSkateboarderCharged" p="0.5" />
     <e n="zombieSkateboarderInfernal" p="0.5" />
@@ -11038,7 +11038,7 @@
     <e n="zombieMaleHazmatInfernal" p="0.5" />
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieSteveFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatHawaiianRadiated" p="0.7" />
     <e n="zombieFatHawaiianInfernal" p="0.5" />
     <e n="zombieBowlerRadiated" p="0.1" />
@@ -11068,7 +11068,7 @@
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieFatCopInfernal" p="0.5" />
     <e n="zombieNurse" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieWightFeral" p="0.8" />
     <e n="zombieSpider" p="0.6" />
     <e n="zombieLumberjackRadiated" p="0.7" />
@@ -11081,7 +11081,7 @@
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombieSteve" />
     <e n="zombieMoe" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieInmate" />
     <e n="zombieLab" />
@@ -11113,7 +11113,7 @@
   <entitygroup name="scoutHordeStageGS385">
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieBoeFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieLumberjackFeral" p="0.8" />
     <e n="zombieWightFeral" p="0.8" />
     <e n="zombieSpider" p="0.6" />
@@ -11129,7 +11129,7 @@
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatCharged" p="0.5" />
     <e n="zombieMaleHazmatInfernal" p="0.5" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieBusinessMan" />
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" p="0.5" />
@@ -11181,7 +11181,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS430">
     <e n="zombieUtilityWorker" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSteve" />
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" p="0.5" />
@@ -11250,7 +11250,7 @@
     <e n="zombieMoe" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieDarleneFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeInfernal" p="0.5" />
     <e n="zombieBusinessMan" />
@@ -11264,7 +11264,7 @@
     <e n="zombieSpider" p="0.6" />
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieLab" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieBusinessManFeral" p="0.8" />
     <e n="zombieJanitorRadiated" p="0.7" />
     <e n="zombieArleneRadiated" p="0.7" />
@@ -11276,13 +11276,13 @@
     <e n="zombieMarleneCharged" p="0.5" />
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieBusinessMan" />
     <e n="zombieYo" />
     <e n="zombieJoe" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieNurseRadiated" p="0.7" />
     <e n="zombieNurseCharged" p="0.5" />
     <e n="zombieBurntFeral" />
@@ -11341,7 +11341,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS548">
     <e n="zombieSteveRadiated" p="0.7" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieSteve" />
     <e n="zombieUtilityWorker" />
@@ -11360,13 +11360,13 @@
     <e n="zombieSteveRadiated" p="0.7" />
     <e n="zombieSteveCharged" p="0.5" />
     <e n="zombieMoe" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSpiderFeral" p="0.8" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieJoe" />
     <e n="zombieFatHawaiianRadiated" p="0.7" />
     <e n="zombieBowlerRadiated" p="0.1" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSpider" p="0.6" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
@@ -11406,7 +11406,7 @@
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieSpiderFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieBikerFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS598">
@@ -11428,7 +11428,7 @@
     <e n="zombieArlene" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS610">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombiePartyGirl" />
     <e n="zombiePartyGirlRadiated" p="0.7" />
     <e n="zombiePartyGirlCharged" p="0.5" />
@@ -11492,7 +11492,7 @@
     <e n="zombieLumberjack" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS662">
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" p="0.5" />
     <e n="zombieFatHawaiianRadiated" p="0.7" />
@@ -11565,7 +11565,7 @@
     <e n="zombieInmateInfernal" p="0.5" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFemaleFatFeral" p="0.8" />
     <e n="zombieMarlene" />
     <e n="zombieDarleneFeral" p="0.8" />
@@ -11632,7 +11632,7 @@
   <entitygroup name="scoutHordeStageGS769">
     <e n="zombieLumberjackFeral" p="0.8" />
     <e n="zombieYoFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieBiker" p="0.8" />
     <e n="zombieMoe" />
@@ -11765,7 +11765,7 @@
     <e n="zombieMoeRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS882">
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieSoldierFeral" p="0.8" />
     <e n="zombieJanitor" />
@@ -11807,7 +11807,7 @@
     <e n="zombiePartyGirlCharged" p="0.5" />
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieMaleHazmatRadiated" p="0.7" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieFatCopRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS925">
@@ -11840,7 +11840,7 @@
     <e n="zombieInmateCharged" p="0.5" />
     <e n="zombieInmateInfernal" p="0.5" />
     <e n="zombieBoeRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieBurntRadiated" p="0.7" />
     <e n="zombieBurntCharged" p="0.5" />
@@ -11867,7 +11867,7 @@
     <e n="zombieLumberjackRadiated" p="0.7" />
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieFatCopInfernal" p="0.5" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSkateboarderCharged" p="0.5" />
@@ -11944,7 +11944,7 @@
     <e n="zombieBoeInfernal" p="0.5" />
     <e n="zombieSpiderRadiated" p="0.7" />
     <e n="zombiePartyGirl" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1045">
     <e n="zombieFatHawaiianFeral" p="0.8" />
@@ -11961,7 +11961,7 @@
     <e n="zombieFatCopFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1060">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieSpiderRadiated" p="0.7" />
     <e n="zombieSpiderCharged" p="0.5" />
@@ -12002,7 +12002,7 @@
     <e n="zombieBowlerFeral" p="0.1" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1091">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatCopFeral" p="0.8" />
     <e n="zombieMoe" />
     <e n="zombieBikerRadiated" p="0.7" />
@@ -12013,7 +12013,7 @@
     <e n="zombieSpiderFeral" p="0.8" />
     <e n="zombieTomClark" />
     <e n="zombieJoe" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1106">
     <e n="zombieJoeFeral" p="0.8" />
@@ -12074,8 +12074,8 @@
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombieSteve" />
     <e n="zombieSteveRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieMarleneRadiated" p="0.7" />
@@ -12110,7 +12110,7 @@
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieFemaleFatInfernal" p="0.5" />
     <e n="zombieBoe" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieFemaleFatFeral" p="0.8" />
     <e n="zombieFatCopRadiated" p="0.7" />
@@ -12130,7 +12130,7 @@
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" p="0.5" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieYo" />
     <e n="zombieFatCop" p="0.8" />
   </entitygroup>
@@ -12224,7 +12224,7 @@
     <e n="zombieJanitor" />
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieFatCopInfernal" p="0.5" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1298">
     <e n="zombieFemaleFatRadiated" p="0.7" />
@@ -12279,7 +12279,7 @@
     <e n="zombieMaleHazmat" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1347">
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombieSoldierFeral" p="0.8" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
@@ -12412,7 +12412,7 @@
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieLumberjackFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieWightRadiated" p="0.7" />
     <e n="zombieLumberjack" p="0.8" />
@@ -12465,7 +12465,7 @@
     <e n="zombieLabRadiated" p="0.8" />
     <e n="zombieLabCharged" />
     <e n="zombieLumberjackFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieMarlene" />
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatCharged" />
@@ -12481,11 +12481,11 @@
     <e n="zombieBoeInfernal" p="0.05" />
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeInfernal" p="0.05" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieSkateboarderFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatHawaiianRadiated" p="0.7" />
     <e n="zombieFatHawaiianInfernal" p="0.05" />
     <e n="zombieBowlerRadiated" p="0.1" />
@@ -12503,9 +12503,9 @@
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieUtilityWorker" />
     <e n="zombieDarleneRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSoldierRadiated" p="0.7" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieYo" />
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombiePartyGirl" />
@@ -12619,7 +12619,7 @@
     <e n="zombieBusinessManRadiated" p="0.7" />
     <e n="zombieBusinessManCharged" />
     <e n="zombieBusinessManInfernal" p="0.05" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeInfernal" p="0.05" />
@@ -12675,7 +12675,7 @@
     <e n="zombieBowlerRadiated" p="0.1" />
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSteveFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieNurseRadiated" p="0.7" />
     <e n="zombieNurseCharged" />
   </entitygroup>
@@ -12794,7 +12794,7 @@
     <e n="zombieYoFeral" p="0.8" />
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieFatCopInfernal" p="0.05" />
     <e n="zombieSteveFeral" p="0.8" />
@@ -12865,7 +12865,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1967">
     <e n="zombieMoe" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSpider" p="0.6" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
@@ -12882,11 +12882,11 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS1986">
     <e n="zombieTomClarkFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieBusinessMan" />
     <e n="zombieMarlene" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieNurseFeral" p="0.8" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
@@ -12928,7 +12928,7 @@
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
     <e n="zombieYoFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMutatedRadiated" p="0.7" />
     <e n="zombieMutatedCharged" />
     <e n="zombieMutatedInfernal" p="0.05" />
@@ -12978,7 +12978,7 @@
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSkateboarderCharged" />
     <e n="zombieSkateboarderInfernal" p="0.05" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieArlene" />
     <e n="zombieBoeFeral" p="0.8" />
@@ -13013,20 +13013,20 @@
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombieSpiderFeral" p="0.8" />
     <e n="zombieArlene" />
-    <e n="zombieScreamer" p="0.5" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatCopFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2138">
     <e n="zombieJanitor" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieJoe" />
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombieTomClark" />
     <e n="zombieBiker" p="0.8" />
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieLumberjackFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieMoe" />
     <e n="zombieJanitorFeral" p="0.8" />
     <e n="zombieMutatedRadiated" p="0.7" />
@@ -13063,7 +13063,7 @@
     <e n="zombieDarleneRadiated" p="0.7" />
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieBiker" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieBurntRadiated" p="0.7" />
     <e n="zombieBurntCharged" />
     <e n="zombieBurntInfernal" p="0.05" />
@@ -13085,7 +13085,7 @@
     <e n="zombieLumberjackRadiated" p="0.7" />
     <e n="zombieLumberjackInfernal" p="0.05" />
     <e n="zombieBiker" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2216">
     <e n="zombieBiker" p="0.8" />
@@ -13116,7 +13116,7 @@
     <e n="zombieYoRadiated" p="0.7" />
     <e n="zombieYoCharged" />
     <e n="zombieYoInfernal" p="0.05" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSoldier" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2255">
@@ -13128,7 +13128,7 @@
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatCharged" />
     <e n="zombieMaleHazmatInfernal" p="0.05" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombieSteveRadiated" p="0.7" />
     <e n="zombieSteveCharged" />
@@ -13164,7 +13164,7 @@
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieBoeFeral" p="0.8" />
     <e n="zombieMarlene" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieNurseFeral" p="0.8" />
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
@@ -13218,7 +13218,7 @@
     <e n="zombieWightRadiated" p="0.7" />
     <e n="zombieNurse" />
     <e n="zombieLumberjack" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombiePartyGirl" />
     <e n="zombieBikerRadiated" p="0.7" />
@@ -13238,7 +13238,7 @@
     <e n="zombieBoeCharged" />
     <e n="zombieBoeInfernal" p="0.05" />
     <e n="zombieDarleneRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieYoRadiated" p="0.7" />
     <e n="zombieFatCopFeral" p="0.8" />
     <e n="zombieUtilityWorker" />
@@ -13282,7 +13282,7 @@
     <e n="zombieJoe" />
     <e n="zombieMaleHazmat" p="0.8" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieYoRadiated" p="0.7" />
     <e n="zombieYoCharged" />
     <e n="zombieYoInfernal" p="0.05" />
@@ -13295,7 +13295,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2455">
     <e n="zombieWightFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
@@ -13353,8 +13353,8 @@
     <e n="zombieUtilityWorkerCharged" />
     <e n="zombieUtilityWorkerInfernal" p="0.05" />
     <e n="zombieSoldier" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
     <e n="zombieInmateRadiated" p="0.7" />
@@ -13466,7 +13466,7 @@
     <e n="zombieLabCharged" />
     <e n="zombieTomClarkRadiated" p="0.7" />
     <e n="zombieSoldierRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2660">
     <e n="zombieMoeFeral" p="0.8" />
@@ -13481,7 +13481,7 @@
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSoldier" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2681">
@@ -13530,7 +13530,7 @@
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieFemaleFatInfernal" p="0.05" />
     <e n="zombieJoe" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombiePartyGirl" />
     <e n="zombieYo" />
     <e n="zombieJanitorFeral" p="0.8" />
@@ -13570,7 +13570,7 @@
     <e n="zombieDarleneRadiated" p="0.7" />
     <e n="zombieDarleneCharged" />
     <e n="zombieDarleneInfernal" p="0.05" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFatCopFeral" p="0.8" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieBoeRadiated" p="0.7" />
@@ -13618,7 +13618,7 @@
     <e n="zombieJanitorRadiated" p="0.7" />
     <e n="zombieJanitorCharged" />
     <e n="zombieJanitorInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMoe" />
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeFeral" p="0.8" />
@@ -13731,7 +13731,7 @@
     <e n="zombieLumberjackRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS2978">
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombieSoldierFeral" p="0.8" />
     <e n="zombieBikerFeral" p="0.8" />
@@ -13754,17 +13754,17 @@
     <e n="zombieUtilityWorkerFeral" p="0.8" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieMoe" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSpider" p="0.6" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSkateboarder" p="0.8" />
     <e n="zombieBoeFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3021">
     <e n="zombieBikerRadiated" p="0.7" />
     <e n="zombieBikerInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieBiker" p="0.8" />
     <e n="zombieFemaleFatFeral" p="0.8" />
     <e n="zombieMarlene" />
@@ -13802,7 +13802,7 @@
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieJoeRadiated" p="0.7" />
     <e n="zombieJoeCharged" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieArlene" />
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieBoeRadiated" p="0.7" />
@@ -13857,7 +13857,7 @@
     <e n="zombieArleneFeral" p="0.8" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieSpider" p="0.6" />
     <e n="zombieBoe" />
@@ -13898,7 +13898,7 @@
     <e n="zombieFemaleFatInfernal" p="0.05" />
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieTomClark" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3218">
@@ -13934,7 +13934,7 @@
     <e n="zombieBikerFeral" p="0.8" />
     <e n="zombieMaleHazmat" p="0.8" />
     <e n="zombieTomClarkFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFatHawaiianRadiated" p="0.7" />
     <e n="zombieFatHawaiianInfernal" p="0.05" />
     <e n="zombieBowlerRadiated" p="0.1" />
@@ -13953,7 +13953,7 @@
     <e n="zombieArlene" />
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieMarlene" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3285">
@@ -13970,7 +13970,7 @@
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieSoldierRadiated" p="0.7" />
     <e n="zombieSoldierInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3307">
     <e n="zombieSkateboarderRadiated" p="0.7" />
@@ -13987,15 +13987,15 @@
     <e n="zombieSteve" />
     <e n="zombieSoldierRadiated" p="0.7" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3330">
     <e n="zombieTomClarkRadiated" p="0.7" />
     <e n="zombieYoRadiated" p="0.7" />
     <e n="zombieYoCharged" />
     <e n="zombieYoInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieNurse" />
     <e n="zombieLumberjackFeral" p="0.8" />
     <e n="zombieInmateFeral" p="0.8" />
@@ -14008,7 +14008,7 @@
   <entitygroup name="scoutHordeStageGS3352">
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieSoldierFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
     <e n="zombieBoe" />
@@ -14018,7 +14018,7 @@
     <e n="zombieBowler" p="0.1" />
     <e n="zombieMoe" />
     <e n="zombieSteve" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMoeRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3375">
@@ -14077,7 +14077,7 @@
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieSoldierRadiated" p="0.7" />
     <e n="zombieSoldierInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieBoeFeral" p="0.8" />
     <e n="zombieBusinessManFeral" p="0.8" />
@@ -14144,7 +14144,7 @@
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatCharged" />
     <e n="zombieMaleHazmatInfernal" p="0.05" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieWightFeral" p="0.8" />
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieJoeRadiated" p="0.7" />
@@ -14158,7 +14158,7 @@
     <e n="zombieMaleHazmatFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS3556">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSteve" />
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
@@ -14216,7 +14216,7 @@
     <e n="zombieDarleneRadiated" p="0.7" />
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieLumberjack" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombiePartyGirlRadiated" p="0.7" />
     <e n="zombiePartyGirlCharged" />
@@ -14245,7 +14245,7 @@
   <entitygroup name="scoutHordeStageGS3671">
     <e n="zombieFatCopFeral" p="0.8" />
     <e n="zombieBoeRadiated" p="0.7" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombiePartyGirl" />
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieSkateboarderFeral" p="0.8" />
@@ -14260,7 +14260,7 @@
   <entitygroup name="scoutHordeStageGS3694">
     <e n="zombieSpiderRadiated" p="0.7" />
     <e n="zombieSpider" p="0.6" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombiePartyGirl" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieMoeRadiated" p="0.7" />
@@ -14282,13 +14282,13 @@
     <e n="zombieSteveFeral" p="0.8" />
     <e n="zombieTomClarkRadiated" p="0.7" />
     <e n="zombieTomClarkCharged" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombieSoldierRadiated" p="0.7" />
     <e n="zombieSoldierInfernal" p="0.05" />
     <e n="zombieBusinessManFeral" p="0.8" />
     <e n="zombieSkateboarderFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMutatedRadiated" p="0.7" />
     <e n="zombieMutatedCharged" />
     <e n="zombieMutatedInfernal" p="0.05" />
@@ -14303,7 +14303,7 @@
     <e n="zombieJanitorInfernal" p="0.05" />
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieLumberjackFeral" p="0.8" />
     <e n="zombieMarleneFeral" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
@@ -14318,7 +14318,7 @@
     <e n="zombieBikerRadiated" p="0.7" />
     <e n="zombieBikerInfernal" p="0.05" />
     <e n="zombieArlene" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieInmateFeral" p="0.8" />
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombiePartyGirlRadiated" p="0.7" />
@@ -14337,7 +14337,7 @@
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
     <e n="zombieJanitorRadiated" p="0.7" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieNurse" />
     <e n="zombieWightFeral" p="0.8" />
     <e n="zombieJoe" />
@@ -14351,7 +14351,7 @@
     <e n="zombieFatHawaiianRadiated" p="0.7" />
     <e n="zombieFatHawaiianInfernal" p="0.05" />
     <e n="zombieBowlerRadiated" p="0.1" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieUtilityWorkerFeral" p="0.8" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieSteve" />
@@ -14414,7 +14414,7 @@
     <e n="zombieFemaleFatFeral" p="0.8" />
     <e n="zombieSkateboarderRadiated" p="0.7" />
     <e n="zombieBoe" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieSpiderRadiated" p="0.7" />
   </entitygroup>
@@ -14431,7 +14431,7 @@
     <e n="zombieArleneCharged" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieBiker" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieArlene" />
     <e n="zombieInmateFeral" p="0.8" />
   </entitygroup>
@@ -14446,7 +14446,7 @@
     <e n="zombieUtilityWorkerCharged" />
     <e n="zombieUtilityWorkerInfernal" p="0.05" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombiePartyGirl" />
     <e n="zombieYo" />
@@ -14530,9 +14530,9 @@
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieFemaleFatInfernal" p="0.05" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBiker" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMoe" />
     <e n="zombieJanitor" />
   </entitygroup>
@@ -14572,7 +14572,7 @@
     <e n="zombieMutatedInfernal" p="0.05" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS4120">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieBusinessManFeral" p="0.8" />
     <e n="zombieBusinessManRadiated" p="0.7" />
     <e n="zombieBusinessManCharged" />
@@ -14592,7 +14592,7 @@
     <e n="zombieBoeInfernal" p="0.05" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS4144">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeInfernal" p="0.05" />
     <e n="zombieBusinessManFeral" p="0.8" />
@@ -14618,7 +14618,7 @@
     <e n="zombieMoeFeral" p="0.8" />
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombiePartyGirl" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieWightRadiated" p="0.7" />
     <e n="zombieLumberjackFeral" p="0.8" />
@@ -14643,10 +14643,10 @@
   <entitygroup name="scoutHordeStageGS4216">
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieNurse" />
     <e n="zombieJanitor" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieJoe" />
     <e n="zombieSpiderFeral" p="0.8" />
     <e n="zombieWightRadiated" p="0.7" />
@@ -14714,7 +14714,7 @@
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieDarlene" />
     <e n="zombieTomClarkRadiated" p="0.7" />
     <e n="zombieTomClarkCharged" />
@@ -14796,7 +14796,7 @@
     <e n="zombieUtilityWorkerCharged" />
     <e n="zombieUtilityWorkerInfernal" p="0.05" />
     <e n="zombieMarleneFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieLumberjackRadiated" p="0.7" />
     <e n="zombieLumberjackInfernal" p="0.05" />
@@ -14819,7 +14819,7 @@
     <e n="zombieDarleneRadiated" p="0.7" />
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieYoFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieMoeFeral" p="0.8" />
     <e n="zombieJanitorFeral" p="0.8" />
   </entitygroup>
@@ -14930,7 +14930,7 @@
     <e n="zombieDarleneFeral" p="0.8" />
     <e n="zombieInmateFeral" p="0.8" />
     <e n="zombieSkateboarderFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieUtilityWorkerFeral" p="0.8" />
     <e n="zombieFatCopRadiated" p="0.7" />
     <e n="zombieFatCopInfernal" p="0.05" />
@@ -14958,7 +14958,7 @@
     <e n="zombieMoe" />
     <e n="zombieMoeFeral" p="0.8" />
     <e n="zombieSoldierRadiated" p="0.7" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieSpider" p="0.6" />
     <e n="zombieMutatedRadiated" p="0.7" />
     <e n="zombieMutatedCharged" />
@@ -15025,7 +15025,7 @@
     <e n="zombieMaleHazmat" p="0.8" />
     <e n="zombieTomClarkFeral" p="0.8" />
     <e n="zombieBusinessManFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieBiker" p="0.8" />
     <e n="zombieYo" />
     <e n="zombieMoe" />
@@ -15139,7 +15139,7 @@
     <e n="zombieLumberjackFeral" p="0.8" />
     <e n="zombieUtilityWorkerFeral" p="0.8" />
     <e n="zombieMaleHazmatRadiated" p="0.7" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieTomClarkRadiated" p="0.7" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieSoldierRadiated" p="0.7" />
@@ -15152,20 +15152,20 @@
     <e n="zombieMarleneRadiated" p="0.7" />
     <e n="zombieMarleneCharged" />
     <e n="zombieYoFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieBusinessManFeral" p="0.8" />
     <e n="zombieBoe" />
     <e n="zombieSteve" />
     <e n="zombieFatCopRadiated" p="0.7" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSoldierRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS4989">
     <e n="zombieArleneRadiated" p="0.7" />
     <e n="zombieArleneCharged" />
     <e n="zombieFatCopFeral" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSoldierRadiated" p="0.7" />
     <e n="zombieSoldierInfernal" p="0.05" />
     <e n="zombieNurseFeral" p="0.8" />
@@ -15183,7 +15183,7 @@
     <e n="zombieSpiderFeral" p="0.8" />
     <e n="zombieJoeFeral" p="0.8" />
     <e n="zombieSkateboarder" p="0.8" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFatCop" p="0.8" />
     <e n="zombieWightRadiated" p="0.7" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
@@ -15194,7 +15194,7 @@
     <e n="zombieMoeRadiated" p="0.7" />
     <e n="zombieMoeInfernal" p="0.05" />
     <e n="zombieArlene" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5041">
     <e n="zombieFemaleFat" p="0.8" />
@@ -15205,7 +15205,7 @@
     <e n="zombieSkateboarderFeral" p="0.8" />
     <e n="zombieTomClark" />
     <e n="zombieWightFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombieSoldier" p="0.8" />
     <e n="zombieArlene" />
@@ -15217,7 +15217,7 @@
     <e n="zombieJoe" />
     <e n="zombieFatHawaiian" p="0.8" />
     <e n="zombieBowler" p="0.1" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieMarlene" />
     <e n="zombieLumberjackRadiated" p="0.7" />
     <e n="zombieFatCop" p="0.8" />
@@ -15244,7 +15244,7 @@
     <e n="zombieMoeFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5118">
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieFemaleFat" p="0.8" />
     <e n="zombieMaleHazmat" p="0.8" />
     <e n="zombieSpider" p="0.6" />
@@ -15296,12 +15296,12 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5196">
     <e n="zombieSoldierFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieJanitor" />
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombiePartyGirlRadiated" p="0.7" />
     <e n="zombiePartyGirlCharged" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieWightRadiated" p="0.7" />
     <e n="zombieMaleHazmatFeral" p="0.8" />
     <e n="zombieFatCopFeral" p="0.8" />
@@ -15438,7 +15438,7 @@
     <e n="zombieMaleHazmatRadiated" p="0.7" />
     <e n="zombieMaleHazmatCharged" />
     <e n="zombieMaleHazmatInfernal" p="0.05" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5405">
     <e n="zombieFemaleFatRadiated" p="0.7" />
@@ -15450,7 +15450,7 @@
     <e n="zombieBiker" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
     <e n="zombieMoeFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieWightRadiated" p="0.7" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5431">
@@ -15492,7 +15492,7 @@
     <e n="zombieMarleneFeral" p="0.8" />
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5484">
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieLabFeral" p="0.8" />
     <e n="zombieLabRadiated" p="0.8" />
     <e n="zombieLabCharged" />
@@ -15540,7 +15540,7 @@
     <e n="zombieSteveRadiated" p="0.7" />
     <e n="zombieFemaleFatRadiated" p="0.7" />
     <e n="zombieFemaleFatInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieSoldierFeral" p="0.8" />
     <e n="zombieSpiderRadiated" p="0.7" />
     <e n="zombieSpiderCharged" />
@@ -15567,7 +15567,7 @@
   </entitygroup>
   <entitygroup name="scoutHordeStageGS5590">
     <e n="zombieJoe" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombiePartyGirlFeral" p="0.8" />
     <e n="zombiePartyGirlRadiated" p="0.7" />
     <e n="zombiePartyGirlCharged" />
@@ -15604,7 +15604,7 @@
     <e n="zombieBoeRadiated" p="0.7" />
     <e n="zombieBoeCharged" />
     <e n="zombieBoeInfernal" p="0.05" />
-    <e n="zombieScreamerRadiated" p="0.5" />
+    <!-- <e n="zombieScreamerRadiated" p="0.5" /> -->
     <e n="zombieTomClark" />
     <e n="zombieLumberjackRadiated" p="0.7" />
     <e n="zombieUtilityWorkerFeral" p="0.8" />
@@ -15633,7 +15633,7 @@
     <e n="zombieMoe" />
     <e n="zombieLumberjack" p="0.8" />
     <e n="zombiePartyGirlFeral" p="0.8" />
-    <e n="zombieScreamer" p="0.5" />
+    <!-- <e n="zombieScreamer" p="0.5" /> -->
     <e n="zombieFatHawaiianFeral" p="0.8" />
     <e n="zombieBowlerFeral" p="0.1" />
     <e n="zombieBiker" p="0.8" />
@@ -15673,7 +15673,7 @@
     <e n="zombieSteve" />
     <e n="zombieWightFeral" p="0.8" />
     <e n="zombieArleneFeral" p="0.8" />
-    <e n="zombieScreamerFeral" p="0.5" />
+    <!-- <e n="zombieScreamerFeral" p="0.5" /> -->
     <e n="zombieBusinessManFeral" p="0.8" />
     <e n="zombieBusinessManRadiated" p="0.7" />
     <e n="zombieBusinessManCharged" />
