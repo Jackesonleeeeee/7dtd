@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata version="1">
-  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-09-04 21:41:42" position="721,61,680">
+  <player platform="EOS" userid="0002380e893b495e8e02c4b0e13f0e15" nativeplatform="Steam" nativeuserid="76561198854679489" playername="Dady" playgroup="Standalone" lastlogin="2026-09-05 15:48:46" position="735,68,656">
     <lpblock pos="729,67,661" />
     <lpblock pos="956,68,714" />
     <lpblock pos="975,68,545" />
@@ -11,8 +11,6 @@
       <position id="1199823615" positiondatatype="4" pos="-1182,149,2524" />
       <position id="-1484129613" positiondatatype="4" pos="-2355,111,1822" />
       <position id="1534259161" positiondatatype="4" pos="1553,57,291" />
-      <position id="249862389" positiondatatype="0" pos="976,67,-1529" />
-      <position id="249862389" positiondatatype="2" pos="2031,50,-2479" />
       <position id="-2009933508" positiondatatype="4" pos="859,54,493" />
       <position id="776257392" positiondatatype="0" pos="-931,76,1762" />
       <position id="776257392" positiondatatype="2" pos="-1569,195,2069" />
@@ -22,6 +20,8 @@
       <position id="769501381" positiondatatype="2" pos="-2020,62,-741" />
       <position id="-1173390859" positiondatatype="0" pos="204,77,-136" />
       <position id="-1173390859" positiondatatype="2" pos="-2020,62,-741" />
+      <position id="954076907" positiondatatype="0" pos="976,67,-1529" />
+      <position id="954076907" positiondatatype="2" pos="1733,70,-1529" />
     </questpositions>
   </player>
   <player platform="EOS" userid="0002822e45af4d38aa0b799e9c26c647" nativeplatform="Steam" nativeuserid="76561198820260438" playername="willytseng2003" playgroup="Standalone" lastlogin="2026-08-11 20:59:57" position="734,68,652">
